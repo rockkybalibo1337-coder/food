@@ -34,7 +34,6 @@
     .main{max-width:480px;margin:0 auto;padding:16px 14px 100px}
     .card{background:var(--wh);border:1px solid var(--br);border-radius:var(--r);padding:15px 17px;margin-bottom:14px;box-shadow:var(--sh)}
     .clabel{font-size:10px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;color:var(--t3);margin-bottom:12px}
-    /* totals */
     .tot-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
     .tot-stat{background:var(--bg);border-radius:var(--rs);padding:10px 12px}
     .tot-stat.kcal{background:var(--gf)}
@@ -42,14 +41,12 @@
     .ts-vl{font-size:20px;font-weight:700;color:var(--tx);letter-spacing:-.5px}
     .tot-stat.kcal .ts-vl{color:var(--g)}
     .ts-un{font-size:11px;font-weight:400;color:var(--t3)}
-    /* meal tabs */
     .mtabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:14px}
     .mtab{padding:8px 4px;font-size:12px;font-weight:600;border:1.5px solid var(--br);border-radius:var(--rs);background:var(--wh);color:var(--t2);cursor:pointer;transition:all .15s;text-align:center;font-family:var(--fn)}
     .mtab .ti{display:block;font-size:16px;margin-bottom:1px}
     .mtab.active.breakfast{background:var(--ap);border-color:var(--am);color:var(--am)}
     .mtab.active.lunch{background:var(--gf);border-color:var(--gl);color:var(--g)}
     .mtab.active.dinner{background:var(--pp);border-color:var(--pu);color:var(--pu)}
-    /* search box */
     .search-wrap{position:relative;margin-bottom:12px}
     .search-wrap input{width:100%;padding:11px 13px 11px 38px;font-size:14px;font-family:var(--fn);border:1.5px solid var(--br);border-radius:var(--rs);background:var(--bg);color:var(--tx);outline:none;transition:border-color .15s;-webkit-appearance:none}
     .search-wrap input:focus{border-color:var(--gl);background:var(--wh);box-shadow:0 0 0 3px rgba(82,183,136,.12)}
@@ -64,11 +61,9 @@
     .sr-name{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
     .sr-meta{font-size:11px;color:var(--t3);margin-top:1px}
     .sr-flag{font-size:14px;flex-shrink:0}
-    /* mode toggle */
     .mode-toggle{display:flex;gap:6px;margin-bottom:12px}
     .mode-btn{flex:1;padding:8px;font-size:12px;font-weight:600;border:1.5px solid var(--br);border-radius:var(--rs);background:var(--wh);color:var(--t2);cursor:pointer;transition:all .15s;font-family:var(--fn);text-align:center}
     .mode-btn.active{background:var(--tx);color:var(--wh);border-color:var(--tx)}
-    /* quick add panel */
     .quick-panel{display:none}
     .quick-panel.show{display:block}
     .selected-food-card{background:var(--gf);border:1px solid var(--gp);border-radius:var(--rs);padding:11px 13px;margin-bottom:10px}
@@ -81,7 +76,6 @@
     .profile-btn .pb-label{font-size:12px;font-weight:600;color:var(--t2)}
     .profile-btn .pb-info{font-size:11px;color:var(--t3);margin-top:1px}
     .profile-btn .pb-kcal{font-size:13px;font-weight:700;color:var(--g);margin-top:3px}
-    /* gram panel */
     .gram-panel{display:none}
     .gram-panel.show{display:block}
     .igrid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:11px}
@@ -97,7 +91,6 @@
     .abtn{width:100%;padding:13px;font-size:15px;font-weight:600;font-family:var(--fn);background:var(--g);color:#fff;border:none;border-radius:var(--rs);cursor:pointer;transition:background .15s,transform .1s}
     .abtn:hover{background:#1f4d39}
     .abtn:active{transform:scale(.98)}
-    /* meal sections */
     .msec{margin-bottom:16px}
     .mshdr{display:flex;align-items:center;justify-content:space-between;padding:0 2px;margin-bottom:7px}
     .mstit{display:flex;align-items:center;gap:7px}
@@ -120,7 +113,6 @@
     .dbtn{background:none;border:none;cursor:pointer;color:var(--b2);font-size:13px;padding:4px;transition:color .15s}
     .dbtn:hover{color:var(--rd)}
     .emty{font-size:13px;color:var(--t3);padding:7px 11px;border:1.5px dashed var(--br);border-radius:var(--rs);text-align:center}
-    /* history */
     .ptabs{display:flex;gap:6px;margin-bottom:16px;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch}
     .ptabs::-webkit-scrollbar{display:none}
     .ptab{flex-shrink:0;padding:7px 15px;font-size:13px;font-weight:600;border:1.5px solid var(--br);border-radius:99px;background:var(--wh);color:var(--t2);cursor:pointer;transition:all .15s;font-family:var(--fn)}
@@ -145,7 +137,6 @@
     .sbox .sv{font-size:17px;font-weight:700;color:var(--tx);letter-spacing:-.3px}
     .sbox .sl{font-size:11px;color:var(--t3);font-weight:500;margin-top:2px}
     .div{height:1px;background:var(--br);margin:4px 0 14px}
-    /* projection */
     .phero{background:linear-gradient(135deg,#1f4d39 0%,#2D6A4F 60%,#52B788 100%);border-radius:var(--r);padding:22px 18px;margin-bottom:14px;color:#fff}
     .phlb{font-size:10px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;opacity:.7;margin-bottom:7px}
     .phvl{font-size:38px;font-weight:700;letter-spacing:-1px;line-height:1}
@@ -166,9 +157,7 @@
     .nodata .ndt{font-size:14px;line-height:1.6}
     .toast{position:fixed;bottom:84px;left:50%;transform:translateX(-50%) translateY(8px);background:var(--tx);color:#fff;padding:9px 18px;border-radius:99px;font-size:13px;font-weight:500;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;white-space:nowrap;z-index:999;box-shadow:0 4px 16px rgba(0,0,0,.2)}
     .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-    /* category header in search */
     .sr-cat{padding:6px 13px 3px;font-size:10px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--t3);background:var(--bg)}
-    /* gram input live feedback */
     .grams-row{display:flex;gap:8px;align-items:flex-end}
     .grams-row .iw{flex:1}
     .calc-btn{padding:10px 14px;background:var(--gf);border:1.5px solid var(--gp);border-radius:var(--rs);font-size:13px;font-weight:600;color:var(--g);cursor:pointer;font-family:var(--fn);white-space:nowrap;transition:background .15s}
@@ -185,7 +174,6 @@
   </div>
 </div>
 
-<!-- ═══ TODAY ═══ -->
 <div class="page active" id="page-today">
   <div class="main">
     <div class="card">
@@ -205,22 +193,16 @@
         <button class="mtab lunch" data-meal="lunch" onclick="selMeal('lunch')"><span class="ti">☀️</span>Lunch</button>
         <button class="mtab dinner" data-meal="dinner" onclick="selMeal('dinner')"><span class="ti">🌙</span>Dinner</button>
       </div>
-
-      <!-- Search -->
       <div class="search-wrap">
         <span class="search-icon">🔍</span>
-        <input id="foodSearch" type="text" placeholder="Search food database…" autocomplete="off" oninput="onSearch(this.value)" onfocus="onSearch(this.value)"/>
+        <input id="foodSearch" type="text" placeholder="Search food / Поиск еды…" autocomplete="off" oninput="onSearch(this.value)" onfocus="onSearch(this.value)"/>
       </div>
       <div class="search-results" id="searchResults"></div>
-
-      <!-- Mode toggle -->
       <div class="mode-toggle">
         <button class="mode-btn active" id="modeQuick" onclick="setMode('quick')">⚡ Quick Add</button>
         <button class="mode-btn" id="modeGram" onclick="setMode('gram')">📏 By Grams</button>
         <button class="mode-btn" id="modeManual" onclick="setMode('manual')">✏️ Manual</button>
       </div>
-
-      <!-- QUICK ADD PANEL -->
       <div class="quick-panel show" id="quickPanel">
         <div id="selectedFoodCard" class="selected-food-card" style="display:none"></div>
         <div id="noFoodMsg" class="no-db-msg">Search and select a food above to quick-add</div>
@@ -239,8 +221,6 @@
           </button>
         </div>
       </div>
-
-      <!-- GRAM PANEL -->
       <div class="gram-panel" id="gramPanel">
         <div id="gramFoodCard" class="selected-food-card" style="display:none"></div>
         <div id="noGramMsg" class="no-db-msg">Search and select a food above, then enter grams</div>
@@ -252,8 +232,6 @@
           <div class="gram-preview" id="gramPreview"></div>
         </div>
       </div>
-
-      <!-- MANUAL PANEL -->
       <div class="gram-panel" id="manualPanel">
         <div class="igrid">
           <div class="iw ifl"><label>Food name</label><input id="manName" type="text" placeholder="e.g. Grilled chicken" autocomplete="off"/></div>
@@ -269,7 +247,6 @@
   </div>
 </div>
 
-<!-- ═══ HISTORY ═══ -->
 <div class="page" id="page-history">
   <div class="main">
     <div class="ptabs" id="ptabs">
@@ -283,7 +260,6 @@
   </div>
 </div>
 
-<!-- ═══ FORECAST ═══ -->
 <div class="page" id="page-projection">
   <div class="main" id="projCont"></div>
 </div>
@@ -296,277 +272,528 @@
 <div class="toast" id="toast"></div>
 
 <script>
-// ══════════════════════════════════════════════
-// FOOD DATABASE
-// per100: [kcal, protein, fat, carbs]
-// maleG / femaleG: quick-add grams
-// unit: display unit (for fixed-portion items like 'piece','serving','bowl')
-// fixedG: if item is fixed portion, grams equivalent for nutrition calc
-// ══════════════════════════════════════════════
 const DB = [
-
 // ─── COMMON PROTEINS ───
-{id:'c1', name:'Chicken breast, boiled', cat:'🍗 Proteins', flag:'', per100:[165,31,3.6,0], maleG:220, femaleG:140},
-{id:'c2', name:'Chicken breast, baked/grilled', cat:'🍗 Proteins', flag:'', per100:[165,31,3.6,0], maleG:200, femaleG:130},
-{id:'c3', name:'Chicken breast, fried (breaded)', cat:'🍗 Proteins', flag:'', per100:[219,29,10,2], maleG:200, femaleG:130},
-{id:'c4', name:'Chicken thigh, boiled', cat:'🍗 Proteins', flag:'', per100:[209,26,11,0], maleG:200, femaleG:130},
-{id:'c5', name:'Chicken thigh, fried', cat:'🍗 Proteins', flag:'', per100:[247,25,15,2], maleG:180, femaleG:120},
-{id:'c6', name:'Chicken wings, baked', cat:'🍗 Proteins', flag:'', per100:[290,27,19,0], maleG:180, femaleG:120},
-{id:'c7', name:'Salmon fillet, baked', cat:'🍗 Proteins', flag:'', per100:[208,20,13,0], maleG:180, femaleG:120},
-{id:'c8', name:'Salmon fillet, pan-fried', cat:'🍗 Proteins', flag:'', per100:[233,22,16,0], maleG:180, femaleG:120},
-{id:'c9', name:'Tuna, canned in water', cat:'🍗 Proteins', flag:'', per100:[116,26,1,0], maleG:150, femaleG:100},
-{id:'c10', name:'Ground beef 80/20, cooked', cat:'🍗 Proteins', flag:'', per100:[254,26,17,0], maleG:180, femaleG:120},
-{id:'c11', name:'Pork tenderloin, roasted', cat:'🍗 Proteins', flag:'', per100:[143,26,4,0], maleG:200, femaleG:130},
-{id:'c12', name:'Beef steak (sirloin), grilled', cat:'🍗 Proteins', flag:'', per100:[207,26,11,0], maleG:250, femaleG:150},
-{id:'c13', name:'Eggs, boiled (1 egg)', cat:'🍗 Proteins', flag:'', per100:[155,13,11,1.1], maleG:100, femaleG:50, unit:'egg', fixedLabel:'1 egg = 50g'},
-{id:'c14', name:'Eggs, scrambled (1 egg)', cat:'🍗 Proteins', flag:'', per100:[148,10,11,1.6], maleG:150, femaleG:100},
-{id:'c15', name:'Eggs, fried (1 egg)', cat:'🍗 Proteins', flag:'', per100:[196,14,15,1], maleG:100, femaleG:50},
-{id:'c16', name:'Shrimp, cooked', cat:'🍗 Proteins', flag:'', per100:[99,24,1.1,0], maleG:150, femaleG:100},
-{id:'c17', name:'Tofu, firm', cat:'🍗 Proteins', flag:'', per100:[76,8,4.8,1.9], maleG:200, femaleG:150},
+{id:'c1',name:'Chicken breast, boiled / Куриная грудка варёная',cat:'🍗 Proteins / Белки',flag:'',per100:[165,31,3.6,0],maleG:220,femaleG:140},
+{id:'c2',name:'Chicken breast, baked/grilled / Куриная грудка запечённая',cat:'🍗 Proteins / Белки',flag:'',per100:[165,31,3.6,0],maleG:200,femaleG:130},
+{id:'c3',name:'Chicken breast, fried / Куриная грудка жареная',cat:'🍗 Proteins / Белки',flag:'',per100:[219,29,10,2],maleG:200,femaleG:130},
+{id:'c4',name:'Chicken thigh, boiled / Куриное бедро варёное',cat:'🍗 Proteins / Белки',flag:'',per100:[209,26,11,0],maleG:200,femaleG:130},
+{id:'c5',name:'Chicken thigh, fried / Куриное бедро жареное',cat:'🍗 Proteins / Белки',flag:'',per100:[247,25,15,2],maleG:180,femaleG:120},
+{id:'c6',name:'Chicken wings, baked / Куриные крылья запечённые',cat:'🍗 Proteins / Белки',flag:'',per100:[290,27,19,0],maleG:180,femaleG:120},
+{id:'c7',name:'Salmon fillet, baked / Лосось запечённый',cat:'🍗 Proteins / Белки',flag:'',per100:[208,20,13,0],maleG:180,femaleG:120},
+{id:'c8',name:'Salmon fillet, pan-fried / Лосось жареный',cat:'🍗 Proteins / Белки',flag:'',per100:[233,22,16,0],maleG:180,femaleG:120},
+{id:'c9',name:'Tuna canned in water / Тунец консервированный',cat:'🍗 Proteins / Белки',flag:'',per100:[116,26,1,0],maleG:150,femaleG:100},
+{id:'c10',name:'Ground beef 80/20 cooked / Фарш говяжий жареный',cat:'🍗 Proteins / Белки',flag:'',per100:[254,26,17,0],maleG:180,femaleG:120},
+{id:'c11',name:'Pork tenderloin roasted / Свиная вырезка запечённая',cat:'🍗 Proteins / Белки',flag:'',per100:[143,26,4,0],maleG:200,femaleG:130},
+{id:'c12',name:'Beef steak sirloin grilled / Говяжий стейк сирлойн',cat:'🍗 Proteins / Белки',flag:'',per100:[207,26,11,0],maleG:250,femaleG:150},
+{id:'c13',name:'Eggs boiled / Яйца варёные',cat:'🍗 Proteins / Белки',flag:'',per100:[155,13,11,1.1],maleG:100,femaleG:50},
+{id:'c14',name:'Eggs scrambled / Яичница болтунья',cat:'🍗 Proteins / Белки',flag:'',per100:[148,10,11,1.6],maleG:150,femaleG:100},
+{id:'c15',name:'Eggs fried / Яичница жареная',cat:'🍗 Proteins / Белки',flag:'',per100:[196,14,15,1],maleG:100,femaleG:50},
+{id:'c16',name:'Shrimp cooked / Креветки варёные',cat:'🍗 Proteins / Белки',flag:'',per100:[99,24,1.1,0],maleG:150,femaleG:100},
+{id:'c17',name:'Tofu firm / Тофу твёрдый',cat:'🍗 Proteins / Белки',flag:'',per100:[76,8,4.8,1.9],maleG:200,femaleG:150},
 
-// ─── CARBS / GRAINS ───
-{id:'g1', name:'White rice, cooked', cat:'🍚 Grains & Carbs', flag:'', per100:[130,2.7,0.3,28], maleG:250, femaleG:180},
-{id:'g2', name:'Brown rice, cooked', cat:'🍚 Grains & Carbs', flag:'', per100:[112,2.3,0.9,23], maleG:250, femaleG:180},
-{id:'g3', name:'Oatmeal, cooked (water)', cat:'🍚 Grains & Carbs', flag:'', per100:[68,2.5,1.4,12], maleG:300, femaleG:220},
-{id:'g4', name:'Pasta, cooked', cat:'🍚 Grains & Carbs', flag:'', per100:[158,5.8,0.9,31], maleG:250, femaleG:180},
-{id:'g5', name:'Bread, white (1 slice)', cat:'🍚 Grains & Carbs', flag:'', per100:[265,9,3.2,49], maleG:60, femaleG:30},
-{id:'g6', name:'Bread, whole wheat (1 slice)', cat:'🍚 Grains & Carbs', flag:'', per100:[247,13,3.4,41], maleG:60, femaleG:30},
-{id:'g7', name:'Sweet potato, baked', cat:'🍚 Grains & Carbs', flag:'', per100:[86,1.6,0.1,20], maleG:220, femaleG:150},
-{id:'g8', name:'Potato, boiled', cat:'🍚 Grains & Carbs', flag:'', per100:[87,1.9,0.1,20], maleG:220, femaleG:150},
-{id:'g9', name:'Potato, fried / French fries', cat:'🍚 Grains & Carbs', flag:'', per100:[312,3.4,15,41], maleG:200, femaleG:120},
-{id:'g10', name:'Corn tortilla (1 piece)', cat:'🍚 Grains & Carbs', flag:'', per100:[218,5.7,3,44], maleG:60, femaleG:40},
+// ─── GRAINS ───
+{id:'g1',name:'White rice cooked / Белый рис варёный',cat:'🍚 Grains / Крупы',flag:'',per100:[130,2.7,0.3,28],maleG:250,femaleG:180},
+{id:'g2',name:'Brown rice cooked / Бурый рис варёный',cat:'🍚 Grains / Крупы',flag:'',per100:[112,2.3,0.9,23],maleG:250,femaleG:180},
+{id:'g3',name:'Oatmeal cooked / Овсяная каша',cat:'🍚 Grains / Крупы',flag:'',per100:[68,2.5,1.4,12],maleG:300,femaleG:220},
+{id:'g4',name:'Pasta cooked / Макароны варёные',cat:'🍚 Grains / Крупы',flag:'',per100:[158,5.8,0.9,31],maleG:250,femaleG:180},
+{id:'g5',name:'White bread slice / Белый хлеб',cat:'🍚 Grains / Крупы',flag:'',per100:[265,9,3.2,49],maleG:60,femaleG:30},
+{id:'g6',name:'Whole wheat bread / Цельнозерновой хлеб',cat:'🍚 Grains / Крупы',flag:'',per100:[247,13,3.4,41],maleG:60,femaleG:30},
+{id:'g7',name:'Sweet potato baked / Батат запечённый',cat:'🍚 Grains / Крупы',flag:'',per100:[86,1.6,0.1,20],maleG:220,femaleG:150},
+{id:'g8',name:'Potato boiled / Картофель варёный',cat:'🍚 Grains / Крупы',flag:'',per100:[87,1.9,0.1,20],maleG:220,femaleG:150},
+{id:'g9',name:'French fries / Картофель фри',cat:'🍚 Grains / Крупы',flag:'',per100:[312,3.4,15,41],maleG:200,femaleG:120},
 
 // ─── DAIRY ───
-{id:'d1', name:'Whole milk, 3.5%', cat:'🥛 Dairy', flag:'', per100:[61,3.2,3.5,4.8], maleG:300, femaleG:200, unit:'ml'},
-{id:'d2', name:'Greek yogurt, plain', cat:'🥛 Dairy', flag:'', per100:[100,10,5,4], maleG:200, femaleG:150},
-{id:'d3', name:'Cottage cheese 5%', cat:'🥛 Dairy', flag:'', per100:[121,17,5,3], maleG:200, femaleG:150},
-{id:'d4', name:'Cheddar cheese', cat:'🥛 Dairy', flag:'', per100:[402,25,33,1.3], maleG:50, femaleG:30},
-{id:'d5', name:'Mozzarella cheese', cat:'🥛 Dairy', flag:'', per100:[280,28,17,3.1], maleG:50, femaleG:30},
-{id:'d6', name:'Butter', cat:'🥛 Dairy', flag:'', per100:[717,0.8,81,0.1], maleG:20, femaleG:10},
-{id:'d7', name:'Cream cheese', cat:'🥛 Dairy', flag:'', per100:[342,6,34,4.1], maleG:30, femaleG:20},
+{id:'d1',name:'Whole milk 3.5% / Молоко цельное 3.5%',cat:'🥛 Dairy / Молочное',flag:'',per100:[61,3.2,3.5,4.8],maleG:300,femaleG:200,unit:'ml'},
+{id:'d2',name:'Greek yogurt plain / Греческий йогурт',cat:'🥛 Dairy / Молочное',flag:'',per100:[100,10,5,4],maleG:200,femaleG:150},
+{id:'d3',name:'Cottage cheese 5% / Творог 5%',cat:'🥛 Dairy / Молочное',flag:'',per100:[121,17,5,3],maleG:200,femaleG:150},
+{id:'d4',name:'Cheddar cheese / Сыр чеддер',cat:'🥛 Dairy / Молочное',flag:'',per100:[402,25,33,1.3],maleG:50,femaleG:30},
+{id:'d5',name:'Mozzarella cheese / Сыр моцарелла',cat:'🥛 Dairy / Молочное',flag:'',per100:[280,28,17,3.1],maleG:50,femaleG:30},
+{id:'d6',name:'Butter / Сливочное масло',cat:'🥛 Dairy / Молочное',flag:'',per100:[717,0.8,81,0.1],maleG:20,femaleG:10},
+{id:'d7',name:'Cream cheese / Сливочный сыр',cat:'🥛 Dairy / Молочное',flag:'',per100:[342,6,34,4.1],maleG:30,femaleG:20},
 
 // ─── VEGETABLES ───
-{id:'v1', name:'Broccoli, steamed', cat:'🥦 Vegetables', flag:'', per100:[34,2.8,0.4,7], maleG:200, femaleG:150},
-{id:'v2', name:'Cucumber', cat:'🥦 Vegetables', flag:'', per100:[15,0.7,0.1,3.6], maleG:200, femaleG:150},
-{id:'v3', name:'Tomato', cat:'🥦 Vegetables', flag:'', per100:[18,0.9,0.2,3.9], maleG:200, femaleG:150},
-{id:'v4', name:'Spinach, raw', cat:'🥦 Vegetables', flag:'', per100:[23,2.9,0.4,3.6], maleG:100, femaleG:80},
-{id:'v5', name:'Carrot, raw', cat:'🥦 Vegetables', flag:'', per100:[41,0.9,0.2,10], maleG:150, femaleG:100},
-{id:'v6', name:'Bell pepper', cat:'🥦 Vegetables', flag:'', per100:[31,1,0.3,6], maleG:150, femaleG:100},
-{id:'v7', name:'Avocado', cat:'🥦 Vegetables', flag:'', per100:[160,2,15,9], maleG:150, femaleG:100},
-{id:'v8', name:'Cabbage, raw', cat:'🥦 Vegetables', flag:'', per100:[25,1.3,0.1,6], maleG:200, femaleG:150},
+{id:'v1',name:'Broccoli steamed / Брокколи на пару',cat:'🥦 Vegetables / Овощи',flag:'',per100:[34,2.8,0.4,7],maleG:200,femaleG:150},
+{id:'v2',name:'Cucumber / Огурец',cat:'🥦 Vegetables / Овощи',flag:'',per100:[15,0.7,0.1,3.6],maleG:200,femaleG:150},
+{id:'v3',name:'Tomato / Помидор',cat:'🥦 Vegetables / Овощи',flag:'',per100:[18,0.9,0.2,3.9],maleG:200,femaleG:150},
+{id:'v4',name:'Spinach raw / Шпинат свежий',cat:'🥦 Vegetables / Овощи',flag:'',per100:[23,2.9,0.4,3.6],maleG:100,femaleG:80},
+{id:'v5',name:'Carrot raw / Морковь свежая',cat:'🥦 Vegetables / Овощи',flag:'',per100:[41,0.9,0.2,10],maleG:150,femaleG:100},
+{id:'v6',name:'Bell pepper / Болгарский перец',cat:'🥦 Vegetables / Овощи',flag:'',per100:[31,1,0.3,6],maleG:150,femaleG:100},
+{id:'v7',name:'Avocado / Авокадо',cat:'🥦 Vegetables / Овощи',flag:'',per100:[160,2,15,9],maleG:150,femaleG:100},
+{id:'v8',name:'Cabbage raw / Капуста свежая',cat:'🥦 Vegetables / Овощи',flag:'',per100:[25,1.3,0.1,6],maleG:200,femaleG:150},
 
 // ─── FRUITS ───
-{id:'f1', name:'Banana', cat:'🍎 Fruits', flag:'', per100:[89,1.1,0.3,23], maleG:130, femaleG:100},
-{id:'f2', name:'Apple', cat:'🍎 Fruits', flag:'', per100:[52,0.3,0.2,14], maleG:200, femaleG:150},
-{id:'f3', name:'Orange', cat:'🍎 Fruits', flag:'', per100:[47,0.9,0.1,12], maleG:200, femaleG:150},
-{id:'f4', name:'Strawberries', cat:'🍎 Fruits', flag:'', per100:[32,0.7,0.3,7.7], maleG:200, femaleG:150},
-{id:'f5', name:'Blueberries', cat:'🍎 Fruits', flag:'', per100:[57,0.7,0.3,14], maleG:150, femaleG:100},
-{id:'f6', name:'Grapes', cat:'🍎 Fruits', flag:'', per100:[62,0.6,0.2,17], maleG:200, femaleG:150},
-{id:'f7', name:'Watermelon', cat:'🍎 Fruits', flag:'', per100:[30,0.6,0.2,7.6], maleG:300, femaleG:200},
+{id:'f1',name:'Banana / Банан',cat:'🍎 Fruits / Фрукты',flag:'',per100:[89,1.1,0.3,23],maleG:130,femaleG:100},
+{id:'f2',name:'Apple / Яблоко',cat:'🍎 Fruits / Фрукты',flag:'',per100:[52,0.3,0.2,14],maleG:200,femaleG:150},
+{id:'f3',name:'Orange / Апельсин',cat:'🍎 Fruits / Фрукты',flag:'',per100:[47,0.9,0.1,12],maleG:200,femaleG:150},
+{id:'f4',name:'Strawberries / Клубника',cat:'🍎 Fruits / Фрукты',flag:'',per100:[32,0.7,0.3,7.7],maleG:200,femaleG:150},
+{id:'f5',name:'Blueberries / Черника',cat:'🍎 Fruits / Фрукты',flag:'',per100:[57,0.7,0.3,14],maleG:150,femaleG:100},
+{id:'f6',name:'Grapes / Виноград',cat:'🍎 Fruits / Фрукты',flag:'',per100:[62,0.6,0.2,17],maleG:200,femaleG:150},
+{id:'f7',name:'Watermelon / Арбуз',cat:'🍎 Fruits / Фрукты',flag:'',per100:[30,0.6,0.2,7.6],maleG:300,femaleG:200},
 
-// ─── FATS / OILS ───
-{id:'o1', name:'Olive oil', cat:'🫒 Oils & Fats', flag:'', per100:[884,0,100,0], maleG:15, femaleG:10},
-{id:'o2', name:'Peanut butter', cat:'🫒 Oils & Fats', flag:'', per100:[588,25,50,20], maleG:40, femaleG:25},
-{id:'o3', name:'Almonds', cat:'🫒 Oils & Fats', flag:'', per100:[579,21,50,22], maleG:40, femaleG:25},
-{id:'o4', name:'Walnuts', cat:'🫒 Oils & Fats', flag:'', per100:[654,15,65,14], maleG:40, femaleG:25},
+// ─── OILS ───
+{id:'o1',name:'Olive oil / Оливковое масло',cat:'🫒 Oils / Масла',flag:'',per100:[884,0,100,0],maleG:15,femaleG:10},
+{id:'o2',name:'Peanut butter / Арахисовая паста',cat:'🫒 Oils / Масла',flag:'',per100:[588,25,50,20],maleG:40,femaleG:25},
+{id:'o3',name:'Almonds / Миндаль',cat:'🫒 Oils / Масла',flag:'',per100:[579,21,50,22],maleG:40,femaleG:25},
+{id:'o4',name:'Walnuts / Грецкие орехи',cat:'🫒 Oils / Масла',flag:'',per100:[654,15,65,14],maleG:40,femaleG:25},
 
 // ─── BEVERAGES ───
-{id:'b1', name:'Black coffee, no sugar', cat:'☕ Beverages', flag:'', per100:[2,0.3,0,0], maleG:240, femaleG:240, unit:'ml'},
-{id:'b2', name:'Orange juice, fresh', cat:'☕ Beverages', flag:'', per100:[45,0.7,0.2,10], maleG:300, femaleG:200, unit:'ml'},
-{id:'b3', name:'Whole milk latte (medium)', cat:'☕ Beverages', flag:'', per100:[60,3,2.5,7], maleG:350, femaleG:250, unit:'ml'},
-{id:'b4', name:'Protein shake (whey, water)', cat:'☕ Beverages', flag:'', per100:[80,16,1.5,3], maleG:300, femaleG:250, unit:'ml'},
+{id:'b1',name:'Black coffee no sugar / Чёрный кофе без сахара',cat:'☕ Beverages / Напитки',flag:'',per100:[2,0.3,0,0],maleG:240,femaleG:240,unit:'ml'},
+{id:'b2',name:'Orange juice fresh / Апельсиновый сок',cat:'☕ Beverages / Напитки',flag:'',per100:[45,0.7,0.2,10],maleG:300,femaleG:200,unit:'ml'},
+{id:'b3',name:'Whole milk latte medium / Латте молочный',cat:'☕ Beverages / Напитки',flag:'',per100:[60,3,2.5,7],maleG:350,femaleG:250,unit:'ml'},
+{id:'b4',name:'Protein shake whey / Протеиновый коктейль',cat:'☕ Beverages / Напитки',flag:'',per100:[80,16,1.5,3],maleG:300,femaleG:250,unit:'ml'},
 
-// ─── FAMILYMART TAIWAN 🇹🇼 ───
-{id:'fm1', name:'Famichiki – Fried Chicken (piece)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[252,15,15,14], fixedG:100, maleG:200, femaleG:100, unit:'piece'},
-{id:'fm2', name:'Onigiri – Salted Salmon', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[143,4.5,0.7,29], fixedG:110, maleG:110, femaleG:110, unit:'piece'},
-{id:'fm3', name:'Onigiri – Teriyaki Chicken', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[170,7.2,2.9,28], fixedG:110, maleG:110, femaleG:110, unit:'piece'},
-{id:'fm4', name:'Onigiri – Tuna Mayo', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[177,4.5,3.6,31], fixedG:110, maleG:110, femaleG:110, unit:'piece'},
-{id:'fm5', name:'Onigiri – Unagi (Eel)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[177,3.5,3.5,31], fixedG:110, maleG:110, femaleG:110, unit:'piece'},
-{id:'fm6', name:'Ham & Cheese Egg Sandwich', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[186,7.4,8.9,19], fixedG:135, maleG:270, femaleG:135, unit:'pack'},
-{id:'fm7', name:'Ham Lettuce Sandwich', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[147,5.6,6.3,17], fixedG:143, maleG:143, femaleG:143, unit:'pack'},
-{id:'fm8', name:'Egg & Tuna Sandwich', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[175,7.6,9.2,16], fixedG:132, maleG:264, femaleG:132, unit:'pack'},
-{id:'fm9', name:'Ham & Cheese Croissant', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[332,8.4,19,31], fixedG:83, maleG:166, femaleG:83, unit:'piece'},
-{id:'fm10', name:'Ham & Cheese Bagel', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[186,9.7,1.9,32], fixedG:104, maleG:104, femaleG:104, unit:'piece'},
-{id:'fm11', name:'Bento Box – Chicken Teriyaki', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[160,8,5,20], fixedG:350, maleG:350, femaleG:350, unit:'box'},
-{id:'fm12', name:'Bento Box – Beef & Rice', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[170,9,6,21], fixedG:350, maleG:350, femaleG:350, unit:'box'},
-{id:'fm13', name:'Scallion Pancake (蔥油餅)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[330,7,15,41], fixedG:85, maleG:170, femaleG:85, unit:'piece'},
-{id:'fm14', name:'Steamed Pork Bun (肉包)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[230,9,7,32], fixedG:90, maleG:180, femaleG:90, unit:'piece'},
-{id:'fm15', name:'Let\'s Café Latte (small)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[35,1.6,1.2,4.8], fixedG:240, maleG:240, femaleG:240, unit:'cup'},
-{id:'fm16', name:'Let\'s Café Black Coffee (small)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[2,0.1,0,0.4], fixedG:240, maleG:240, femaleG:240, unit:'cup'},
-{id:'fm17', name:'Bubble Milk Tea (500ml)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[50,0.5,0.8,10], fixedG:500, maleG:500, femaleG:500, unit:'bottle'},
-{id:'fm18', name:'FamilyMart Soft Serve Ice Cream', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[173,3.5,6,26], fixedG:100, maleG:100, femaleG:100, unit:'cone'},
-{id:'fm19', name:'Taiwan Beer (330ml can)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[43,0.3,0,3.5], fixedG:330, maleG:330, femaleG:330, unit:'can'},
-{id:'fm20', name:'FamilyMart Instant Noodles (cup)', cat:'🏪 FamilyMart TW', flag:'🇹🇼', per100:[420,9,16,60], fixedG:85, maleG:170, femaleG:85, unit:'cup'},
+// ─── FAMILYMART TAIWAN ───
+{id:'fm1',name:'Famichiki Fried Chicken (piece)',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[252,15,15,14],fixedG:100,maleG:200,femaleG:100,unit:'piece'},
+{id:'fm2',name:'Onigiri Salted Salmon',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[143,4.5,0.7,29],fixedG:110,maleG:110,femaleG:110,unit:'piece'},
+{id:'fm3',name:'Onigiri Teriyaki Chicken',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[170,7.2,2.9,28],fixedG:110,maleG:110,femaleG:110,unit:'piece'},
+{id:'fm4',name:'Onigiri Tuna Mayo',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[177,4.5,3.6,31],fixedG:110,maleG:110,femaleG:110,unit:'piece'},
+{id:'fm5',name:'Onigiri Unagi Eel',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[177,3.5,3.5,31],fixedG:110,maleG:110,femaleG:110,unit:'piece'},
+{id:'fm6',name:'Ham & Cheese Egg Sandwich',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[186,7.4,8.9,19],fixedG:135,maleG:270,femaleG:135,unit:'pack'},
+{id:'fm7',name:'Ham Lettuce Sandwich',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[147,5.6,6.3,17],fixedG:143,maleG:143,femaleG:143,unit:'pack'},
+{id:'fm8',name:'Egg & Tuna Sandwich',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[175,7.6,9.2,16],fixedG:132,maleG:264,femaleG:132,unit:'pack'},
+{id:'fm9',name:'Ham & Cheese Croissant',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[332,8.4,19,31],fixedG:83,maleG:166,femaleG:83,unit:'piece'},
+{id:'fm10',name:'Ham & Cheese Bagel',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[186,9.7,1.9,32],fixedG:104,maleG:104,femaleG:104,unit:'piece'},
+{id:'fm11',name:'Bento Box Chicken Teriyaki',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[160,8,5,20],fixedG:350,maleG:350,femaleG:350,unit:'box'},
+{id:'fm12',name:'Bento Box Beef & Rice',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[170,9,6,21],fixedG:350,maleG:350,femaleG:350,unit:'box'},
+{id:'fm13',name:'Scallion Pancake 蔥油餅',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[330,7,15,41],fixedG:85,maleG:170,femaleG:85,unit:'piece'},
+{id:'fm14',name:'Steamed Pork Bun 肉包',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[230,9,7,32],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'fm15',name:"Let's Café Latte small",cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[35,1.6,1.2,4.8],fixedG:240,maleG:240,femaleG:240,unit:'cup'},
+{id:'fm16',name:"Let's Café Black Coffee small",cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[2,0.1,0,0.4],fixedG:240,maleG:240,femaleG:240,unit:'cup'},
+{id:'fm17',name:'Bubble Milk Tea 500ml',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[50,0.5,0.8,10],fixedG:500,maleG:500,femaleG:500,unit:'bottle'},
+{id:'fm18',name:'FamilyMart Soft Serve Ice Cream',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[173,3.5,6,26],fixedG:100,maleG:100,femaleG:100,unit:'cone'},
+{id:'fm19',name:'Taiwan Beer 330ml',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[43,0.3,0,3.5],fixedG:330,maleG:330,femaleG:330,unit:'can'},
+{id:'fm20',name:'FamilyMart Instant Noodles cup',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[420,9,16,60],fixedG:85,maleG:170,femaleG:85,unit:'cup'},
+{id:'fm21',name:'FamilyMart Pork Jerky 豬肉乾',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[310,38,8,20],fixedG:50,maleG:100,femaleG:50,unit:'pack'},
+{id:'fm22',name:'FamilyMart Pudding 布丁',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[110,3,3.5,17],fixedG:165,maleG:165,femaleG:165,unit:'cup'},
+{id:'fm23',name:'FamilyMart Chocolate Milk 巧克力牛奶',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[67,2.9,1.8,10],fixedG:236,maleG:236,femaleG:236,unit:'bottle'},
+{id:'fm24',name:'FamilyMart Pineapple Cake 鳳梨酥',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[390,4,14,62],fixedG:50,maleG:100,femaleG:50,unit:'piece'},
+{id:'fm25',name:'FamilyMart Egg Roll Wafer 蛋捲',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[460,7,24,56],fixedG:40,maleG:80,femaleG:40,unit:'pack'},
+{id:'fm26',name:'FamilyMart Taro Milk Tea 芋頭奶茶',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[55,0.7,1,10.5],fixedG:500,maleG:500,femaleG:500,unit:'bottle'},
+{id:'fm27',name:'FamilyMart Oden Fish Tofu 關東煮',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[80,6,2.5,8],fixedG:60,maleG:120,femaleG:60,unit:'piece'},
+{id:'fm28',name:'FamilyMart Corn Oden 玉米',cat:'🏪 FamilyMart TW',flag:'🇹🇼',per100:[86,3.2,1.2,16],fixedG:80,maleG:160,femaleG:80,unit:'piece'},
 
-// ─── TAIWAN LOCAL FOODS 🇹🇼 ───
-{id:'tw1', name:'Beef Noodle Soup (牛肉麵)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[95,5.5,2.5,13], fixedG:500, maleG:500, femaleG:400, unit:'bowl'},
-{id:'tw2', name:'Braised Pork Rice (滷肉飯)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[170,6,6,23], fixedG:250, maleG:350, femaleG:220, unit:'bowl'},
-{id:'tw3', name:'Scallion Pancake with Egg (蛋餅)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[240,8,9,31], fixedG:130, maleG:260, femaleG:130, unit:'piece'},
-{id:'tw4', name:'Pork Chop Rice (排骨飯)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[190,10,7,22], fixedG:350, maleG:450, femaleG:300, unit:'plate'},
-{id:'tw5', name:'Oyster Omelette (蚵仔煎)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[120,6,4,15], fixedG:200, maleG:250, femaleG:180, unit:'plate'},
-{id:'tw6', name:'Stinky Tofu, fried (臭豆腐)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[180,10,9,14], fixedG:150, maleG:200, femaleG:150, unit:'plate'},
-{id:'tw7', name:'Bubble Milk Tea with Pearls (500ml)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[70,0.8,1.2,15], fixedG:500, maleG:500, femaleG:500, unit:'cup'},
-{id:'tw8', name:'Scallion Egg Pancake (蔥抓餅)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[340,8,17,38], fixedG:100, maleG:200, femaleG:100, unit:'piece'},
-{id:'tw9', name:'Steamed Bun (饅頭)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[220,7,1,46], fixedG:90, maleG:180, femaleG:90, unit:'piece'},
-{id:'tw10', name:'Mango Shaved Ice (芒果冰)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[130,1,0.5,31], fixedG:400, maleG:400, femaleG:300, unit:'bowl'},
-{id:'tw11', name:'Popcorn Chicken (鹹酥雞)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[290,16,16,21], fixedG:150, maleG:200, femaleG:120, unit:'bag'},
-{id:'tw12', name:'Congee / Rice Porridge (稀飯)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[40,1.2,0.2,8.5], fixedG:350, maleG:450, femaleG:300, unit:'bowl'},
-{id:'tw13', name:'Dan Bing (Egg Crepe)', cat:'🇹🇼 Taiwan Foods', flag:'🇹🇼', per100:[195,8,6,26], fixedG:130, maleG:260, femaleG:130, unit:'piece'},
+// ─── 7-ELEVEN TAIWAN ───
+{id:'se1',name:'7-Eleven Big Bite Hot Dog',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[280,11,16,23],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'se2',name:'7-Eleven Egg Mayo Sandwich',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[190,7,9,21],fixedG:130,maleG:260,femaleG:130,unit:'pack'},
+{id:'se3',name:'7-Eleven BLT Sandwich',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[210,9,10,22],fixedG:130,maleG:260,femaleG:130,unit:'pack'},
+{id:'se4',name:'7-Eleven Beef Onigiri',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[165,6,3,29],fixedG:110,maleG:110,femaleG:110,unit:'piece'},
+{id:'se5',name:'7-Eleven Salmon Onigiri',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[145,5,1.5,28],fixedG:110,maleG:110,femaleG:110,unit:'piece'},
+{id:'se6',name:'7-Eleven Open Chan Coffee Latte',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[38,1.5,1,5.5],fixedG:250,maleG:250,femaleG:250,unit:'cup'},
+{id:'se7',name:'7-Eleven Bento Chicken Rice',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[155,8,4.5,21],fixedG:360,maleG:360,femaleG:360,unit:'box'},
+{id:'se8',name:'7-Eleven Pork Bun 肉包',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[228,8.5,6.5,34],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'se9',name:'7-Eleven Fried Chicken Strip',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[290,17,16,18],fixedG:80,maleG:160,femaleG:80,unit:'piece'},
+{id:'se10',name:'7-Eleven Chocolate Waffle 鬆餅',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[310,6,14,41],fixedG:85,maleG:170,femaleG:85,unit:'piece'},
+{id:'se11',name:'7-Eleven Green Tea (500ml)',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[14,0,0,3.5],fixedG:500,maleG:500,femaleG:500,unit:'bottle'},
+{id:'se12',name:'7-Eleven Yakult Milk Drink',cat:'🏪 7-Eleven TW',flag:'🇹🇼',per100:[71,1.2,0,16],fixedG:100,maleG:100,femaleG:100,unit:'bottle'},
 
-// ─── RUSSIAN FOODS & RETAIL 🇷🇺 ───
-{id:'ru1', name:'Borsch (борщ)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[50,2.3,2.1,5.5], fixedG:400, maleG:500, femaleG:350, unit:'bowl'},
-{id:'ru2', name:'Pelmeni, boiled (пельмени)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[275,11,12,29], maleG:300, femaleG:200},
-{id:'ru3', name:'Buckwheat porridge (гречка)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[110,4,1,22], maleG:250, femaleG:180},
-{id:'ru4', name:'Olivier Salad (Салат Оливье)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[190,5,14,10], maleG:250, femaleG:180},
-{id:'ru5', name:'Bliny (блины) with sour cream', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[233,6,12,26], maleG:200, femaleG:140},
-{id:'ru6', name:'Kefir 3.2% (кефир)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[59,2.9,3.2,4], maleG:300, femaleG:200, unit:'ml'},
-{id:'ru7', name:'Tvorog 9% cottage cheese (творог)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[159,17,9,3], maleG:200, femaleG:150},
-{id:'ru8', name:'Smetana 20% sour cream (сметана)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[204,2.8,20,3.2], maleG:50, femaleG:30},
-{id:'ru9', name:'Doktorskaya sausage (Докторская)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[257,13,22,1.5], maleG:100, femaleG:60},
-{id:'ru10', name:'Borodinsky bread (Бородинский хлеб)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[207,6.8,1.3,41], maleG:80, femaleG:50},
-{id:'ru11', name:'Shchi soup (щи)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[38,1.8,1.5,4], fixedG:400, maleG:500, femaleG:350, unit:'bowl'},
-{id:'ru12', name:'Buckwheat with beef (гречка с говядиной)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[155,10,6,16], maleG:350, femaleG:250, unit:'plate'},
-{id:'ru13', name:'Syrniki (сырники)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[220,14,8,24], maleG:200, femaleG:150},
-{id:'ru14', name:'Chicken soup (куриный суп)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[35,3,1,3], fixedG:400, maleG:500, femaleG:350, unit:'bowl'},
-{id:'ru15', name:'Herring under fur coat (Шуба)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[150,5,10,11], maleG:200, femaleG:150},
-{id:'ru16', name:'Salo (сало, lard)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[797,2.4,89,0], maleG:40, femaleG:20},
-{id:'ru17', name:'Millet porridge (пшённая каша)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[120,3.3,1.1,24], maleG:250, femaleG:180},
-{id:'ru18', name:'Pea soup (гороховый суп)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[66,4.5,2.1,8], fixedG:400, maleG:500, femaleG:350, unit:'bowl'},
-{id:'ru19', name:'Cheburek (чебурек)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[255,9,14,23], fixedG:150, maleG:300, femaleG:150, unit:'piece'},
-{id:'ru20', name:'Pirozhok with cabbage (пирожок)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[218,5,8,31], fixedG:100, maleG:200, femaleG:100, unit:'piece'},
-{id:'ru21', name:'Vinegret salad (Винегрет)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[80,1.7,3.5,10], maleG:250, femaleG:200},
-{id:'ru22', name:'Okroshka (окрошка)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[40,2.5,1.5,4], fixedG:400, maleG:500, femaleG:350, unit:'bowl'},
-{id:'ru23', name:'Salted herring (сельдь)', cat:'🇷🇺 Russian Foods', flag:'🇷🇺', per100:[217,17,15,0], maleG:100, femaleG:60},
+// ─── HI-LIFE TAIWAN ───
+{id:'hl1',name:'Hi-Life Tuna Onigiri',cat:'🏪 Hi-Life TW',flag:'🇹🇼',per100:[150,5.5,2,27],fixedG:110,maleG:110,femaleG:110,unit:'piece'},
+{id:'hl2',name:'Hi-Life Egg Salad Sandwich',cat:'🏪 Hi-Life TW',flag:'🇹🇼',per100:[205,7,10,23],fixedG:125,maleG:250,femaleG:125,unit:'pack'},
+{id:'hl3',name:'Hi-Life Braised Pork Bento',cat:'🏪 Hi-Life TW',flag:'🇹🇼',per100:[162,9,5.5,22],fixedG:350,maleG:350,femaleG:350,unit:'box'},
+{id:'hl4',name:'Hi-Life Steamed Bun 饅頭',cat:'🏪 Hi-Life TW',flag:'🇹🇼',per100:[218,6.5,1.5,45],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'hl5',name:'Hi-Life Milk Tea 500ml',cat:'🏪 Hi-Life TW',flag:'🇹🇼',per100:[48,0.8,0.9,9],fixedG:500,maleG:500,femaleG:500,unit:'bottle'},
 
-// ─── RUSSIAN RETAIL BRANDS ───
-{id:'rr1', name:'Простоквашино milk 3.2% (Pyaterochka)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[60,2.8,3.2,4.7], maleG:300, femaleG:200, unit:'ml'},
-{id:'rr2', name:'Активиа yogurt natural (Danone)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[66,4.5,2,8], fixedG:130, maleG:260, femaleG:130, unit:'cup'},
-{id:'rr3', name:'ВкусВилл Greek yogurt 5%', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[100,10,4.5,5], maleG:200, femaleG:150},
-{id:'rr4', name:'Мираторг chicken fillet (raw)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[113,23,2.6,0], maleG:250, femaleG:160},
-{id:'rr5', name:'Пятёрочка milk sausages (сосиски)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[265,11,23,2], maleG:160, femaleG:80},
-{id:'rr6', name:'Магнит kefir 3.2%', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[59,2.9,3.2,4], maleG:300, femaleG:200, unit:'ml'},
-{id:'rr7', name:'ВкусВилл tvorog 5%', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[121,15,5,3], maleG:200, femaleG:150},
-{id:'rr8', name:'Rollton instant noodles (cup)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[390,9,13,58], fixedG:90, maleG:180, femaleG:90, unit:'cup'},
-{id:'rr9', name:'Мираторг beef burger patty (frozen)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[235,17,18,0], fixedG:100, maleG:200, femaleG:100, unit:'piece'},
-{id:'rr10', name:'Dr.Oetker vanilla yogurt', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[90,3.2,2.5,14], fixedG:130, maleG:130, femaleG:130, unit:'cup'},
-{id:'rr11', name:'Перекрёсток smoked salmon (лосось)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[155,22,8,0], maleG:150, femaleG:100},
-{id:'rr12', name:'ВкусВилл borodinsky bread', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[207,6.8,1.3,41], maleG:80, femaleG:50},
-{id:'rr13', name:'Пятёрочка Doktorskaya sausage', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[257,13,22,1.5], maleG:100, femaleG:60},
-{id:'rr14', name:'Nestlé Nesquik chocolate cereal', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[378,8.7,5.3,74], maleG:60, femaleG:40},
-{id:'rr15', name:'Lay\'s chips original (bag)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[536,6.5,33,51], fixedG:56, maleG:112, femaleG:56, unit:'bag'},
-{id:'rr16', name:'Мираторг pork schnitzels (frozen)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[220,16,14,6], fixedG:120, maleG:240, femaleG:120, unit:'piece'},
-{id:'rr17', name:'Магнит curd cheese (творожный сыр)', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[232,7,20,6], maleG:50, femaleG:30},
-{id:'rr18', name:'Valio butter 82.5%', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[717,0.8,82,0.5], maleG:20, femaleG:10},
-{id:'rr19', name:'ВкусВилл granola with berries', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[380,8,9,62], maleG:70, femaleG:50},
-{id:'rr20', name:'Пятёрочка black tea Lipton', cat:'🛒 Russian Retail', flag:'🇷🇺', per100:[1,0,0,0.2], maleG:250, femaleG:250, unit:'ml'},
+// ─── OK MART TAIWAN ───
+{id:'ok1',name:'OK Mart Braised Egg 滷蛋',cat:'🏪 OK Mart TW',flag:'🇹🇼',per100:[140,12,9,2],fixedG:55,maleG:110,femaleG:55,unit:'piece'},
+{id:'ok2',name:'OK Mart Chicken Leg Rice',cat:'🏪 OK Mart TW',flag:'🇹🇼',per100:[175,9,6,22],fixedG:320,maleG:320,femaleG:320,unit:'box'},
+{id:'ok3',name:'OK Mart Toast 吐司',cat:'🏪 OK Mart TW',flag:'🇹🇼',per100:[280,8,6,48],fixedG:70,maleG:140,femaleG:70,unit:'pack'},
+
+// ─── PX MART TAIWAN ───
+{id:'px1',name:'PX Mart House Brand Whole Milk 3.5%',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[63,3.3,3.6,4.9],maleG:300,femaleG:200,unit:'ml'},
+{id:'px2',name:'PX Mart White Rice 白米飯 (cooked)',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[130,2.7,0.3,28],maleG:250,femaleG:180},
+{id:'px3',name:'PX Mart Frozen Dumplings 水餃 (boiled)',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[175,8,6,23],maleG:300,femaleG:200},
+{id:'px4',name:'PX Mart Frozen Pork Buns 包子',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[220,8,6.5,33],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'px5',name:'PX Mart Instant Noodles 泡麵',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[430,9,18,60],fixedG:85,maleG:170,femaleG:85,unit:'pack'},
+{id:'px6',name:'PX Mart Soy Milk 豆漿 (unsweetened)',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[33,3.3,1.8,1],maleG:300,femaleG:250,unit:'ml'},
+{id:'px7',name:'PX Mart Frozen Shrimp 急凍白蝦',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[85,18,1,0.4],maleG:150,femaleG:100},
+{id:'px8',name:'PX Mart Pork Belly Sliced 五花肉 (raw)',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[395,14,37,0],maleG:200,femaleG:120},
+{id:'px9',name:'PX Mart Chicken Breast Sliced 雞胸肉 (raw)',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[109,23,1.5,0],maleG:250,femaleG:160},
+{id:'px10',name:'PX Mart Tofu Soft 嫩豆腐',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[55,5.5,2.5,2],fixedG:300,maleG:300,femaleG:300,unit:'block'},
+{id:'px11',name:'PX Mart Salted Duck Egg 鹹鴨蛋',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[190,13,14,2],fixedG:70,maleG:140,femaleG:70,unit:'piece'},
+{id:'px12',name:'PX Mart Seaweed Snack 海苔',cat:'🛒 PX Mart TW',flag:'🇹🇼',per100:[210,14,9,22],fixedG:4,maleG:8,femaleG:4,unit:'pack'},
+
+// ─── RT-MART TAIWAN ───
+{id:'rt1',name:'RT-Mart Frozen Wontons 雲吞 (boiled)',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[185,8,7,23],maleG:200,femaleG:150},
+{id:'rt2',name:'RT-Mart Pork Ribs 豬排骨 (raw)',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[290,17,25,0],maleG:250,femaleG:160},
+{id:'rt3',name:'RT-Mart Tilapia Fillet 吳郭魚 (raw)',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[96,20,2,0],maleG:200,femaleG:140},
+{id:'rt4',name:'RT-Mart Cheese Slices 起司片',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[320,18,25,4],fixedG:20,maleG:40,femaleG:20,unit:'slice'},
+{id:'rt5',name:'RT-Mart Frozen Fish Balls 魚丸',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[100,10,2.5,9],maleG:150,femaleG:100},
+{id:'rt6',name:'RT-Mart Frozen Edamame 毛豆',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[122,11,5,9],maleG:150,femaleG:100},
+{id:'rt7',name:'RT-Mart Mixed Vegetables Frozen 什錦蔬菜',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[45,2.5,0.3,8],maleG:200,femaleG:150},
+{id:'rt8',name:'RT-Mart Squid Rings 花枝圈 (frozen)',cat:'🛒 RT-Mart TW',flag:'🇹🇼',per100:[175,12,7,16],maleG:150,femaleG:100},
+
+// ─── CARREFOUR TAIWAN ───
+{id:'ca1',name:'Carrefour TW Chicken Breast 雞胸肉 (raw)',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[109,23,1.5,0],maleG:250,femaleG:160},
+{id:'ca2',name:'Carrefour TW Salmon Fillet 鮭魚片 (raw)',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[182,20,11,0],maleG:200,femaleG:140},
+{id:'ca3',name:'Carrefour TW Carrefour Milk 牛奶',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[63,3.2,3.5,4.8],maleG:300,femaleG:200,unit:'ml'},
+{id:'ca4',name:'Carrefour TW Yogurt Plain 原味優格',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[70,4,2,9],maleG:200,femaleG:150},
+{id:'ca5',name:'Carrefour TW Frozen Pizza 冷凍披薩',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[250,10,10,32],fixedG:200,maleG:400,femaleG:200,unit:'slice'},
+{id:'ca6',name:'Carrefour TW Whole Wheat Bread 全麥麵包',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[245,9,3,45],fixedG:35,maleG:70,femaleG:35,unit:'slice'},
+{id:'ca7',name:'Carrefour TW Egg 雞蛋 (raw)',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[143,13,10,1],fixedG:60,maleG:120,femaleG:60,unit:'egg'},
+{id:'ca8',name:'Carrefour TW Frozen Shrimp 急凍蝦',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[85,18,1,0.4],maleG:150,femaleG:100},
+{id:'ca9',name:'Carrefour TW Sweet Potato 地瓜',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[86,1.6,0.1,20],maleG:220,femaleG:150},
+{id:'ca10',name:'Carrefour TW Oat Milk 燕麥奶',cat:'🛒 Carrefour TW',flag:'🇹🇼',per100:[46,1,1.5,7],maleG:300,femaleG:250,unit:'ml'},
+
+// ─── COSTCO TAIWAN ───
+{id:'co1',name:'Costco TW Rotisserie Chicken 烤雞',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[190,23,10,0],maleG:300,femaleG:200},
+{id:'co2',name:'Costco TW Kirkland Salmon 野生鮭魚',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[182,20,11,0],maleG:200,femaleG:140},
+{id:'co3',name:'Costco TW Kirkland Chicken Breast 雞胸肉 (cooked)',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[165,31,3.6,0],maleG:220,femaleG:140},
+{id:'co4',name:'Costco TW Caesar Salad Kit',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[90,3,6,6],maleG:300,femaleG:200},
+{id:'co5',name:'Costco TW Kirkland Mixed Nuts',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[607,17,54,22],maleG:50,femaleG:30},
+{id:'co6',name:'Costco TW Muffin Blueberry',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[390,5,17,54],fixedG:200,maleG:200,femaleG:100,unit:'piece'},
+{id:'co7',name:'Costco TW Kirkland Greek Yogurt 0%',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[60,10,0,5],maleG:250,femaleG:200},
+{id:'co8',name:'Costco TW Pizza Slice (food court)',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[260,12,10,33],fixedG:240,maleG:480,femaleG:240,unit:'slice'},
+{id:'co9',name:'Costco TW Hot Dog (food court)',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[285,12,18,20],fixedG:170,maleG:170,femaleG:170,unit:'piece'},
+{id:'co10',name:'Costco TW Croissant 可頌',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[380,8,22,40],fixedG:80,maleG:160,femaleG:80,unit:'piece'},
+{id:'co11',name:'Costco TW Frozen Dumplings 冷凍餃子',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[185,9,7,22],maleG:300,femaleG:200},
+{id:'co12',name:'Kirkland Almond Butter',cat:'🛒 Costco TW',flag:'🇹🇼',per100:[617,21,56,18],maleG:40,femaleG:25},
+
+// ─── TAIWAN LOCAL FOODS ───
+{id:'tw1',name:'Beef Noodle Soup 牛肉麵',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[95,5.5,2.5,13],fixedG:500,maleG:500,femaleG:400,unit:'bowl'},
+{id:'tw2',name:'Braised Pork Rice 滷肉飯',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[170,6,6,23],fixedG:250,maleG:350,femaleG:220,unit:'bowl'},
+{id:'tw3',name:'Scallion Pancake with Egg 蛋餅',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[240,8,9,31],fixedG:130,maleG:260,femaleG:130,unit:'piece'},
+{id:'tw4',name:'Pork Chop Rice 排骨飯',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[190,10,7,22],fixedG:350,maleG:450,femaleG:300,unit:'plate'},
+{id:'tw5',name:'Oyster Omelette 蚵仔煎',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[120,6,4,15],fixedG:200,maleG:250,femaleG:180,unit:'plate'},
+{id:'tw6',name:'Stinky Tofu fried 臭豆腐',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[180,10,9,14],fixedG:150,maleG:200,femaleG:150,unit:'plate'},
+{id:'tw7',name:'Bubble Milk Tea with Pearls 珍珠奶茶 500ml',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[70,0.8,1.2,15],fixedG:500,maleG:500,femaleG:500,unit:'cup'},
+{id:'tw8',name:'Scallion Egg Pancake 蔥抓餅',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[340,8,17,38],fixedG:100,maleG:200,femaleG:100,unit:'piece'},
+{id:'tw9',name:'Steamed Bun 饅頭',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[220,7,1,46],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'tw10',name:'Mango Shaved Ice 芒果冰',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[130,1,0.5,31],fixedG:400,maleG:400,femaleG:300,unit:'bowl'},
+{id:'tw11',name:'Popcorn Chicken 鹹酥雞',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[290,16,16,21],fixedG:150,maleG:200,femaleG:120,unit:'bag'},
+{id:'tw12',name:'Congee Rice Porridge 稀飯',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[40,1.2,0.2,8.5],fixedG:350,maleG:450,femaleG:300,unit:'bowl'},
+{id:'tw13',name:'Dan Bing Egg Crepe 蛋餅',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[195,8,6,26],fixedG:130,maleG:260,femaleG:130,unit:'piece'},
+{id:'tw14',name:'Fried Noodles 炒麵',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[180,6,7,24],fixedG:300,maleG:400,femaleG:280,unit:'plate'},
+{id:'tw15',name:'Scallion Pancake 蔥油餅 (night market)',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[330,7,15,41],fixedG:100,maleG:200,femaleG:100,unit:'piece'},
+{id:'tw16',name:'Grilled Corn 烤玉米',cat:'🇹🇼 Taiwan Foods',flag:'🇹🇼',per100:[115,4,2,22],fixedG:150,maleG:150,femaleG:150,unit:'piece'},
+
+// ─── RUSSIAN FOODS ───
+{id:'ru1',name:'Борщ / Borsch soup',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[50,2.3,2.1,5.5],fixedG:400,maleG:500,femaleG:350,unit:'bowl'},
+{id:'ru2',name:'Пельмени / Pelmeni boiled',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[275,11,12,29],maleG:300,femaleG:200},
+{id:'ru3',name:'Гречка / Buckwheat porridge',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[110,4,1,22],maleG:250,femaleG:180},
+{id:'ru4',name:'Оливье / Olivier Salad',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[190,5,14,10],maleG:250,femaleG:180},
+{id:'ru5',name:'Блины / Bliny with sour cream',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[233,6,12,26],maleG:200,femaleG:140},
+{id:'ru6',name:'Кефир 3.2% / Kefir',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[59,2.9,3.2,4],maleG:300,femaleG:200,unit:'ml'},
+{id:'ru7',name:'Творог 9% / Tvorog cottage cheese',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[159,17,9,3],maleG:200,femaleG:150},
+{id:'ru8',name:'Сметана 20% / Smetana sour cream',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[204,2.8,20,3.2],maleG:50,femaleG:30},
+{id:'ru9',name:'Докторская колбаса / Doktorskaya sausage',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[257,13,22,1.5],maleG:100,femaleG:60},
+{id:'ru10',name:'Бородинский хлеб / Borodinsky bread',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[207,6.8,1.3,41],maleG:80,femaleG:50},
+{id:'ru11',name:'Щи / Shchi cabbage soup',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[38,1.8,1.5,4],fixedG:400,maleG:500,femaleG:350,unit:'bowl'},
+{id:'ru12',name:'Гречка с говядиной / Buckwheat with beef',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[155,10,6,16],maleG:350,femaleG:250,unit:'plate'},
+{id:'ru13',name:'Сырники / Syrniki cottage cheese pancakes',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[220,14,8,24],maleG:200,femaleG:150},
+{id:'ru14',name:'Куриный суп / Chicken soup',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[35,3,1,3],fixedG:400,maleG:500,femaleG:350,unit:'bowl'},
+{id:'ru15',name:'Шуба / Herring under fur coat salad',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[150,5,10,11],maleG:200,femaleG:150},
+{id:'ru16',name:'Сало / Salo lard',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[797,2.4,89,0],maleG:40,femaleG:20},
+{id:'ru17',name:'Пшённая каша / Millet porridge',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[120,3.3,1.1,24],maleG:250,femaleG:180},
+{id:'ru18',name:'Гороховый суп / Pea soup',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[66,4.5,2.1,8],fixedG:400,maleG:500,femaleG:350,unit:'bowl'},
+{id:'ru19',name:'Чебурек / Cheburek',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[255,9,14,23],fixedG:150,maleG:300,femaleG:150,unit:'piece'},
+{id:'ru20',name:'Пирожок с капустой / Pirozhok with cabbage',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[218,5,8,31],fixedG:100,maleG:200,femaleG:100,unit:'piece'},
+{id:'ru21',name:'Винегрет / Vinegret salad',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[80,1.7,3.5,10],maleG:250,femaleG:200},
+{id:'ru22',name:'Окрошка / Okroshka cold soup',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[40,2.5,1.5,4],fixedG:400,maleG:500,femaleG:350,unit:'bowl'},
+{id:'ru23',name:'Сельдь / Salted herring',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[217,17,15,0],maleG:100,femaleG:60},
+{id:'ru24',name:'Вареники / Vareniki dumplings boiled',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[215,7,4,38],maleG:300,femaleG:200},
+{id:'ru25',name:'Манная каша / Semolina porridge',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[98,3.2,1,19],maleG:300,femaleG:220},
+{id:'ru26',name:'Котлеты / Kotlety meat patties',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[255,14,17,12],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'ru27',name:'Рассольник / Rassolnik pickle soup',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[42,2.5,1.8,4.5],fixedG:400,maleG:500,femaleG:350,unit:'bowl'},
+{id:'ru28',name:'Запеканка творожная / Cottage cheese casserole',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[170,12,7,14],maleG:200,femaleG:150},
+{id:'ru29',name:'Рисовая каша / Rice porridge',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[90,2.5,1.2,17],maleG:300,femaleG:220},
+{id:'ru30',name:'Холодец / Kholodets meat jelly',cat:'🇷🇺 Russian Foods / Русская кухня',flag:'🇷🇺',per100:[80,7,5,0],maleG:200,femaleG:150},
+
+// ─── PYATEROCHKA (Пятёрочка) ───
+{id:'p5_1',name:'Пятёрочка Молоко 3.2% / Milk',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[60,2.8,3.2,4.7],maleG:300,femaleG:200,unit:'ml'},
+{id:'p5_2',name:'Пятёрочка Кефир 2.5%',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[53,3,2.5,4],maleG:300,femaleG:200,unit:'ml'},
+{id:'p5_3',name:'Пятёрочка Творог 9%',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[159,17,9,3],maleG:200,femaleG:150},
+{id:'p5_4',name:'Пятёрочка Сосиски Молочные / milk sausages',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[265,11,23,2],maleG:160,femaleG:80},
+{id:'p5_5',name:'Пятёрочка Докторская колбаса / Doktorskaya',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[257,13,22,1.5],maleG:100,femaleG:60},
+{id:'p5_6',name:'Пятёрочка Чай Lipton чёрный / black tea',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[1,0,0,0.2],maleG:250,femaleG:250,unit:'ml'},
+{id:'p5_7',name:'Пятёрочка Хлеб белый нарезной / white bread',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[230,7,2.5,45],fixedG:30,maleG:90,femaleG:60,unit:'slice'},
+{id:'p5_8',name:'Пятёрочка Сметана 20% / sour cream',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[204,2.8,20,3.2],maleG:50,femaleG:30},
+{id:'p5_9',name:'Пятёрочка Масло сливочное 82.5% / butter',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[740,0.6,82,0.8],maleG:20,femaleG:10},
+{id:'p5_10',name:'Пятёрочка Яйцо куриное / chicken egg',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[155,13,11,1.1],fixedG:60,maleG:120,femaleG:60,unit:'egg'},
+{id:'p5_11',name:'Пятёрочка Куриная грудка / chicken breast (raw)',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[109,23,1.5,0],maleG:250,femaleG:160},
+{id:'p5_12',name:'Пятёрочка Минтай / Pollock fillet (frozen)',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[72,15.9,0.9,0],maleG:200,femaleG:140},
+{id:'p5_13',name:'Пятёрочка Гречка сухая / buckwheat dry',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[313,12.6,3.3,57],maleG:80,femaleG:60},
+{id:'p5_14',name:'Пятёрочка Рис длиннозёрный / long grain rice dry',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[344,7.5,1.8,72],maleG:80,femaleG:60},
+{id:'p5_15',name:'Пятёрочка Макароны / pasta dry',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[350,11,1.5,72],maleG:80,femaleG:60},
+{id:'p5_16',name:'Пятёрочка Сыр Российский / Russian cheese',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[364,24,29,0],maleG:50,femaleG:30},
+{id:'p5_17',name:'Пятёрочка Йогурт Активиа / Activia yogurt',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[66,4.5,2,8],fixedG:130,maleG:260,femaleG:130,unit:'cup'},
+{id:'p5_18',name:'Пятёрочка Пельмени замороженные / frozen pelmeni',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[265,10,10,30],maleG:300,femaleG:200},
+{id:'p5_19',name:'Пятёрочка Чипсы Lay\'s оригинал / chips',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[536,6.5,33,51],fixedG:56,maleG:112,femaleG:56,unit:'bag'},
+{id:'p5_20',name:'Пятёрочка Шоколад Milka 100г / chocolate',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[534,7.5,29,59],fixedG:100,maleG:50,femaleG:25,unit:'bar'},
+{id:'p5_21',name:'Пятёрочка Геркулес овсяные хлопья / oat flakes',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[352,12,6,60],maleG:80,femaleG:60},
+{id:'p5_22',name:'Пятёрочка Горбуша консервированная / canned salmon',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[138,21,6,0],fixedG:245,maleG:245,femaleG:185,unit:'can'},
+{id:'p5_23',name:'Пятёрочка Тунец консервированный / canned tuna',cat:'🛒 Пятёрочка',flag:'🇷🇺',per100:[116,26,1,0],fixedG:185,maleG:185,femaleG:130,unit:'can'},
+
+// ─── PEREKRESTOK (Перекрёсток) ───
+{id:'pk1',name:'Перекрёсток Лосось копчёный / smoked salmon',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[155,22,8,0],maleG:150,femaleG:100},
+{id:'pk2',name:'Перекрёсток Сёмга слабосолёная / lightly salted salmon',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[169,20,10,0],maleG:150,femaleG:100},
+{id:'pk3',name:'Перекрёсток Греческий йогурт / Greek yogurt',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[95,9,4,5],maleG:200,femaleG:150},
+{id:'pk4',name:'Перекрёсток Куриная грудка охл / fresh chicken breast',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[109,23,1.5,0],maleG:250,femaleG:160},
+{id:'pk5',name:'Перекрёсток Говядина вырезка / beef tenderloin',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[187,18,13,0],maleG:250,femaleG:160},
+{id:'pk6',name:'Перекрёсток Сыр Гауда / Gouda cheese',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[356,25,27,2],maleG:50,femaleG:30},
+{id:'pk7',name:'Перекрёсток Хлеб Дарницкий / rye bread',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[206,6.4,1.2,41],fixedG:35,maleG:105,femaleG:70,unit:'slice'},
+{id:'pk8',name:'Перекрёсток Творог зернёный / cottage cheese',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[105,12,4.5,3.5],maleG:200,femaleG:150},
+{id:'pk9',name:'Перекрёсток Сок апельсиновый / orange juice',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[45,0.7,0.1,10],maleG:300,femaleG:200,unit:'ml'},
+{id:'pk10',name:'Перекрёсток Оливки / olives',cat:'🛒 Перекрёсток',flag:'🇷🇺',per100:[145,1,15,3.8],maleG:50,femaleG:30},
+
+// ─── CHIZHIK (Чижик) ───
+{id:'ch1',name:'Чижик Молоко 3.2% / milk',cat:'🛒 Чижик',flag:'🇷🇺',per100:[58,2.8,3.2,4.7],maleG:300,femaleG:200,unit:'ml'},
+{id:'ch2',name:'Чижик Кефир 1% / kefir',cat:'🛒 Чижик',flag:'🇷🇺',per100:[40,3,1,4],maleG:300,femaleG:200,unit:'ml'},
+{id:'ch3',name:'Чижик Творог 5% / cottage cheese',cat:'🛒 Чижик',flag:'🇷🇺',per100:[121,15,5,3],maleG:200,femaleG:150},
+{id:'ch4',name:'Чижик Хлеб пшеничный / wheat bread',cat:'🛒 Чижик',flag:'🇷🇺',per100:[240,8,2.5,47],fixedG:30,maleG:90,femaleG:60,unit:'slice'},
+{id:'ch5',name:'Чижик Сосиски говяжьи / beef sausages',cat:'🛒 Чижик',flag:'🇷🇺',per100:[240,12,20,3],maleG:160,femaleG:80},
+{id:'ch6',name:'Чижик Сметана 15% / sour cream',cat:'🛒 Чижик',flag:'🇷🇺',per100:[160,2.6,15,3.5],maleG:50,femaleG:30},
+
+// ─── MAGNIT (Магнит) ───
+{id:'mg1',name:'Магнит Молоко 3.2% / milk',cat:'🛒 Магнит',flag:'🇷🇺',per100:[58,2.8,3.2,4.7],maleG:300,femaleG:200,unit:'ml'},
+{id:'mg2',name:'Магнит Кефир 3.2% / kefir',cat:'🛒 Магнит',flag:'🇷🇺',per100:[59,2.9,3.2,4],maleG:300,femaleG:200,unit:'ml'},
+{id:'mg3',name:'Магнит Творожный сыр / curd cheese',cat:'🛒 Магнит',flag:'🇷🇺',per100:[232,7,20,6],maleG:50,femaleG:30},
+{id:'mg4',name:'Магнит Куриные ножки / chicken legs (raw)',cat:'🛒 Магнит',flag:'🇷🇺',per100:[184,16,13,0],maleG:250,femaleG:160},
+{id:'mg5',name:'Магнит Сыр Пошехонский / Poshehonsky cheese',cat:'🛒 Магнит',flag:'🇷🇺',per100:[334,26,26,0],maleG:50,femaleG:30},
+{id:'mg6',name:'Магнит Йогурт Чудо / Chudo yogurt',cat:'🛒 Магнит',flag:'🇷🇺',per100:[90,3,2.5,14],fixedG:125,maleG:250,femaleG:125,unit:'cup'},
+{id:'mg7',name:'Магнит Масло подсолнечное / sunflower oil',cat:'🛒 Магнит',flag:'🇷🇺',per100:[899,0,99.9,0],maleG:15,femaleG:10},
+{id:'mg8',name:'Магнит Гречка ядрица / buckwheat dry',cat:'🛒 Магнит',flag:'🇷🇺',per100:[313,12.6,3.3,57],maleG:80,femaleG:60},
+{id:'mg9',name:'Магнит Хлеб Бородинский / Borodinsky bread',cat:'🛒 Магнит',flag:'🇷🇺',per100:[207,6.8,1.3,41],fixedG:35,maleG:105,femaleG:70,unit:'slice'},
+
+// ─── LENTA (Лента) ───
+{id:'ln1',name:'Лента Куриная грудка охл / chicken breast',cat:'🛒 Лента',flag:'🇷🇺',per100:[109,23,1.5,0],maleG:250,femaleG:160},
+{id:'ln2',name:'Лента Свинина карбонад / pork loin',cat:'🛒 Лента',flag:'🇷🇺',per100:[215,16,17,0],maleG:250,femaleG:160},
+{id:'ln3',name:'Лента Сёмга охл / fresh salmon',cat:'🛒 Лента',flag:'🇷🇺',per100:[182,20,11,0],maleG:200,femaleG:140},
+{id:'ln4',name:'Лента Творог 5% / cottage cheese',cat:'🛒 Лента',flag:'🇷🇺',per100:[121,17,5,3],maleG:200,femaleG:150},
+{id:'ln5',name:'Лента Молоко 3.5% / milk',cat:'🛒 Лента',flag:'🇷🇺',per100:[63,3.2,3.5,4.8],maleG:300,femaleG:200,unit:'ml'},
+{id:'ln6',name:'Лента Сыр Эдам / Edam cheese',cat:'🛒 Лента',flag:'🇷🇺',per100:[321,26,23,0],maleG:50,femaleG:30},
+{id:'ln7',name:'Лента Макароны перо / penne pasta dry',cat:'🛒 Лента',flag:'🇷🇺',per100:[350,11,1.5,72],maleG:80,femaleG:60},
+{id:'ln8',name:'Лента Замороженная пицца Маргарита / frozen pizza',cat:'🛒 Лента',flag:'🇷🇺',per100:[240,9,8,34],fixedG:360,maleG:360,femaleG:240,unit:'pizza'},
+
+// ─── VKUSVILL (ВкусВилл) ───
+{id:'vv1',name:'ВкусВилл Греческий йогурт 5% / Greek yogurt',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[100,10,4.5,5],maleG:200,femaleG:150},
+{id:'vv2',name:'ВкусВилл Творог 5% / cottage cheese',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[121,15,5,3],maleG:200,femaleG:150},
+{id:'vv3',name:'ВкусВилл Хлеб Бородинский / Borodinsky bread',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[207,6.8,1.3,41],fixedG:35,maleG:105,femaleG:70,unit:'slice'},
+{id:'vv4',name:'ВкусВилл Гранола с ягодами / granola with berries',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[380,8,9,62],maleG:70,femaleG:50},
+{id:'vv5',name:'ВкусВилл Яйца куриные / eggs',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[155,13,11,1.1],fixedG:60,maleG:120,femaleG:60,unit:'egg'},
+{id:'vv6',name:'ВкусВилл Куриная грудка / chicken breast',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[109,23,1.5,0],maleG:250,femaleG:160},
+{id:'vv7',name:'ВкусВилл Молоко 3.5% / milk',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[63,3.2,3.5,4.8],maleG:300,femaleG:200,unit:'ml'},
+{id:'vv8',name:'ВкусВилл Сырники замороженные / frozen syrniki',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[210,13,7,24],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'vv9',name:'ВкусВилл Зелёный горошек / green peas',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[55,5,0.4,8.3],maleG:100,femaleG:80},
+{id:'vv10',name:'ВкусВилл Шоколад тёмный 72% / dark chocolate',cat:'🛒 ВкусВилл',flag:'🇷🇺',per100:[546,9,38,43],fixedG:25,maleG:50,femaleG:25,unit:'bar'},
+
+// ─── GLOBUS (Глобус) ───
+{id:'gl1',name:'Глобус Лосось охлаждённый / fresh salmon',cat:'🛒 Глобус',flag:'🇷🇺',per100:[182,20,11,0],maleG:200,femaleG:140},
+{id:'gl2',name:'Глобус Говядина / beef',cat:'🛒 Глобус',flag:'🇷🇺',per100:[187,18,13,0],maleG:250,femaleG:160},
+{id:'gl3',name:'Глобус Сыр Пармезан / Parmesan cheese',cat:'🛒 Глобус',flag:'🇷🇺',per100:[392,36,26,0],maleG:30,femaleG:20},
+{id:'gl4',name:'Глобус Моцарелла / Mozzarella',cat:'🛒 Глобус',flag:'🇷🇺',per100:[280,28,17,3.1],maleG:50,femaleG:30},
+{id:'gl5',name:'Глобус Паста Barilla / pasta dry',cat:'🛒 Глобус',flag:'🇷🇺',per100:[350,12,1.5,70],maleG:80,femaleG:60},
+
+// ─── SVETOFOR (Светофор) ───
+{id:'sv1',name:'Светофор Куриный фарш / ground chicken',cat:'🛒 Светофор',flag:'🇷🇺',per100:[143,17,8,0],maleG:200,femaleG:140},
+{id:'sv2',name:'Светофор Пельмени / pelmeni frozen',cat:'🛒 Светофор',flag:'🇷🇺',per100:[265,10,10,30],maleG:300,femaleG:200},
+{id:'sv3',name:'Светофор Молоко 2.5% / milk',cat:'🛒 Светофор',flag:'🇷🇺',per100:[52,2.8,2.5,4.7],maleG:300,femaleG:200,unit:'ml'},
+{id:'sv4',name:'Светофор Печенье овсяное / oat cookies',cat:'🛒 Светофор',flag:'🇷🇺',per100:[420,7,14,65],maleG:60,femaleG:40},
+
+// ─── METRO RUSSIA ───
+{id:'mr1',name:'Metro Говяжий стейк Рибай / ribeye steak',cat:'🛒 Metro RU',flag:'🇷🇺',per100:[291,18,24,0],maleG:300,femaleG:180},
+{id:'mr2',name:'Metro Куриная грудка / chicken breast bulk',cat:'🛒 Metro RU',flag:'🇷🇺',per100:[109,23,1.5,0],maleG:250,femaleG:160},
+{id:'mr3',name:'Metro Сыр Гауда / Gouda cheese',cat:'🛒 Metro RU',flag:'🇷🇺',per100:[356,25,27,2],maleG:50,femaleG:30},
+{id:'mr4',name:'Metro Масло оливковое / olive oil',cat:'🛒 Metro RU',flag:'🇷🇺',per100:[884,0,100,0],maleG:15,femaleG:10},
+{id:'mr5',name:'Metro Лосось филе / salmon fillet',cat:'🛒 Metro RU',flag:'🇷🇺',per100:[182,20,11,0],maleG:200,femaleG:140},
+{id:'mr6',name:'Metro Замороженные овощи / frozen vegetables mix',cat:'🛒 Metro RU',flag:'🇷🇺',per100:[45,2.5,0.3,8],maleG:200,femaleG:150},
+{id:'mr7',name:'Metro Нут консервированный / canned chickpeas',cat:'🛒 Metro RU',flag:'🇷🇺',per100:[120,7,2.4,17],maleG:150,femaleG:100},
+
+// ─── RUSSIAN RETAIL BRANDS (misc) ───
+{id:'rr1',name:'Простоквашино Молоко 3.2% / Prostokvashino milk',cat:'🛒 Бренды РФ',flag:'🇷🇺',per100:[60,2.8,3.2,4.7],maleG:300,femaleG:200,unit:'ml'},
+{id:'rr2',name:'Активиа йогурт натуральный / Activia yogurt',cat:'🛒 Бренды РФ',flag:'🇷🇺',per100:[66,4.5,2,8],fixedG:130,maleG:260,femaleG:130,unit:'cup'},
+{id:'rr3',name:'Мираторг куриное филе / Miratorg chicken fillet',cat:'🛒 Бренды РФ',flag:'🇷🇺',per100:[113,23,2.6,0],maleG:250,femaleG:160},
+{id:'rr4',name:'Rollton лапша / instant noodles cup',cat:'🛒 Бренды РФ',flag:'🇷🇺',per100:[390,9,13,58],fixedG:90,maleG:180,femaleG:90,unit:'cup'},
+{id:'rr5',name:'Мираторг бургерная котлета / burger patty',cat:'🛒 Бренды РФ',flag:'🇷🇺',per100:[235,17,18,0],fixedG:100,maleG:200,femaleG:100,unit:'piece'},
+{id:'rr6',name:'Nesquik хлопья шоколадные / cereal',cat:'🛒 Бренды РФ',flag:'🇷🇺',per100:[378,8.7,5.3,74],maleG:60,femaleG:40},
+{id:'rr7',name:'Valio масло 82.5% / butter',cat:'🛒 Бренды РФ',flag:'🇷🇺',per100:[717,0.8,82,0.5],maleG:20,femaleG:10},
+
+// ─── McDONALD'S ───
+{id:'mc1',name:"McDonald's Big Mac",cat:"🍔 McDonald's",flag:'',per100:[229,11,11,22],fixedG:215,maleG:430,femaleG:215,unit:'burger'},
+{id:'mc2',name:"McDonald's McChicken",cat:"🍔 McDonald's",flag:'',per100:[251,13,13,25],fixedG:155,maleG:310,femaleG:155,unit:'burger'},
+{id:'mc3',name:"McDonald's Quarter Pounder with Cheese",cat:"🍔 McDonald's",flag:'',per100:[278,16,14,26],fixedG:199,maleG:398,femaleG:199,unit:'burger'},
+{id:'mc4',name:"McDonald's Cheeseburger",cat:"🍔 McDonald's",flag:'',per100:[278,16,12,28],fixedG:114,maleG:228,femaleG:114,unit:'burger'},
+{id:'mc5',name:"McDonald's Large Fries",cat:"🍔 McDonald's",flag:'',per100:[312,3.4,15,41],fixedG:154,maleG:154,femaleG:154,unit:'portion'},
+{id:'mc6',name:"McDonald's Medium Fries",cat:"🍔 McDonald's",flag:'',per100:[312,3.4,15,41],fixedG:117,maleG:117,femaleG:117,unit:'portion'},
+{id:'mc7',name:"McDonald's McNuggets 6pcs",cat:"🍔 McDonald's",flag:'',per100:[244,14,14,16],fixedG:96,maleG:192,femaleG:96,unit:'box'},
+{id:'mc8',name:"McDonald's McNuggets 9pcs",cat:"🍔 McDonald's",flag:'',per100:[244,14,14,16],fixedG:144,maleG:288,femaleG:144,unit:'box'},
+{id:'mc9',name:"McDonald's Filet-O-Fish",cat:"🍔 McDonald's",flag:'',per100:[282,15,12,29],fixedG:142,maleG:284,femaleG:142,unit:'burger'},
+{id:'mc10',name:"McDonald's McFlurry Oreo",cat:"🍔 McDonald's",flag:'',per100:[175,4,6,28],fixedG:220,maleG:220,femaleG:220,unit:'cup'},
+{id:'mc11',name:"McDonald's Apple Pie",cat:"🍔 McDonald's",flag:'',per100:[308,3,14,42],fixedG:77,maleG:154,femaleG:77,unit:'piece'},
+{id:'mc12',name:"McDonald's Hotcakes (3 pcs)",cat:"🍔 McDonald's",flag:'',per100:[228,5,5,41],fixedG:156,maleG:312,femaleG:156,unit:'plate'},
+{id:'mc13',name:"McDonald's Egg McMuffin",cat:"🍔 McDonald's",flag:'',per100:[255,15,11,27],fixedG:138,maleG:276,femaleG:138,unit:'sandwich'},
+{id:'mc14',name:"McDonald's Vanilla Milkshake Large",cat:"🍔 McDonald's",flag:'',per100:[90,3.1,2.5,15],fixedG:550,maleG:550,femaleG:330,unit:'cup'},
+{id:'mc15',name:"McDonald's Caesar Salad",cat:"🍔 McDonald's",flag:'',per100:[80,6,5,3],fixedG:260,maleG:260,femaleG:260,unit:'plate'},
+{id:'mc16',name:"McDonald's Coca-Cola Medium",cat:"🍔 McDonald's",flag:'',per100:[42,0,0,10.6],fixedG:400,maleG:400,femaleG:400,unit:'cup'},
+{id:'mc17',name:"McDonald's Grand Crispy Chicken",cat:"🍔 McDonald's",flag:'',per100:[262,15,14,21],fixedG:213,maleG:426,femaleG:213,unit:'burger'},
+{id:'mc18',name:"McDonald's Strawberry Sundae",cat:"🍔 McDonald's",flag:'',per100:[167,3.5,5.4,27],fixedG:150,maleG:300,femaleG:150,unit:'cup'},
+
+// ─── KFC ───
+{id:'kfc1',name:'KFC Original Recipe Chicken (piece)',cat:'🍗 KFC',flag:'',per100:[267,22,15,10],fixedG:160,maleG:320,femaleG:160,unit:'piece'},
+{id:'kfc2',name:'KFC Crispy Chicken (piece)',cat:'🍗 KFC',flag:'',per100:[330,20,19,19],fixedG:140,maleG:280,femaleG:140,unit:'piece'},
+{id:'kfc3',name:'KFC Zinger Burger',cat:'🍗 KFC',flag:'',per100:[287,14,14,28],fixedG:177,maleG:354,femaleG:177,unit:'burger'},
+{id:'kfc4',name:'KFC Twister Wrap',cat:'🍗 KFC',flag:'',per100:[260,14,10,30],fixedG:200,maleG:400,femaleG:200,unit:'wrap'},
+{id:'kfc5',name:'KFC Coleslaw (regular)',cat:'🍗 KFC',flag:'',per100:[130,1.1,9,11],fixedG:142,maleG:284,femaleG:142,unit:'portion'},
+{id:'kfc6',name:'KFC Corn on the Cob',cat:'🍗 KFC',flag:'',per100:[103,3.5,1.5,20],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'kfc7',name:'KFC Popcorn Chicken (large)',cat:'🍗 KFC',flag:'',per100:[320,17,18,21],fixedG:170,maleG:340,femaleG:170,unit:'box'},
+{id:'kfc8',name:'KFC Hot Wings (6pcs)',cat:'🍗 KFC',flag:'',per100:[295,22,18,9],fixedG:180,maleG:360,femaleG:180,unit:'box'},
+{id:'kfc9',name:'KFC Pepsi Medium',cat:'🍗 KFC',flag:'',per100:[42,0,0,10.6],fixedG:400,maleG:400,femaleG:400,unit:'cup'},
+{id:'kfc10',name:'KFC Mashed Potato & Gravy',cat:'🍗 KFC',flag:'',per100:[90,2.5,3,13],fixedG:136,maleG:272,femaleG:136,unit:'portion'},
+{id:'kfc11',name:'KFC Biscuit',cat:'🍗 KFC',flag:'',per100:[380,6.5,18,48],fixedG:57,maleG:114,femaleG:57,unit:'piece'},
+{id:'kfc12',name:'KFC Colonel Sandwich',cat:'🍗 KFC',flag:'',per100:[280,16,14,26],fixedG:190,maleG:380,femaleG:190,unit:'sandwich'},
+
+// ─── BURGER KING ───
+{id:'bk1',name:'Burger King Whopper',cat:'🍔 Burger King',flag:'',per100:[252,13,14,23],fixedG:290,maleG:290,femaleG:290,unit:'burger'},
+{id:'bk2',name:'Burger King Whopper with Cheese',cat:'🍔 Burger King',flag:'',per100:[261,14,15,23],fixedG:310,maleG:310,femaleG:310,unit:'burger'},
+{id:'bk3',name:'Burger King Cheeseburger',cat:'🍔 Burger King',flag:'',per100:[271,15,12,28],fixedG:133,maleG:266,femaleG:133,unit:'burger'},
+{id:'bk4',name:'Burger King Crispy Chicken Sandwich',cat:'🍔 Burger King',flag:'',per100:[264,14,11,31],fixedG:196,maleG:392,femaleG:196,unit:'burger'},
+{id:'bk5',name:'Burger King Large Fries',cat:'🍔 Burger King',flag:'',per100:[280,3.6,13,39],fixedG:163,maleG:163,femaleG:163,unit:'portion'},
+{id:'bk6',name:'Burger King Onion Rings Large',cat:'🍔 Burger King',flag:'',per100:[330,4,19,36],fixedG:137,maleG:274,femaleG:137,unit:'portion'},
+{id:'bk7',name:'Burger King Chicken Nuggets 8pcs',cat:'🍔 Burger King',flag:'',per100:[248,14,14,17],fixedG:120,maleG:240,femaleG:120,unit:'box'},
+{id:'bk8',name:'Burger King KING Fusion Oreo',cat:'🍔 Burger King',flag:'',per100:[180,4,6.5,28],fixedG:230,maleG:230,femaleG:230,unit:'cup'},
+{id:'bk9',name:'Burger King Double Whopper',cat:'🍔 Burger King',flag:'',per100:[280,17,17,22],fixedG:374,maleG:374,femaleG:374,unit:'burger'},
+
+// ─── SUBWAY ───
+{id:'sw1',name:'Subway 6" Italian BMT (default)',cat:'🥪 Subway',flag:'',per100:[245,12,9,30],fixedG:240,maleG:480,femaleG:240,unit:'sandwich'},
+{id:'sw2',name:'Subway 6" Tuna Sub',cat:'🥪 Subway',flag:'',per100:[250,13,11,28],fixedG:235,maleG:470,femaleG:235,unit:'sandwich'},
+{id:'sw3',name:'Subway 6" Chicken Teriyaki',cat:'🥪 Subway',flag:'',per100:[210,14,4,30],fixedG:256,maleG:512,femaleG:256,unit:'sandwich'},
+{id:'sw4',name:'Subway 6" Veggie Delite',cat:'🥪 Subway',flag:'',per100:[140,6,2,26],fixedG:170,maleG:340,femaleG:170,unit:'sandwich'},
+{id:'sw5',name:'Subway 12" Italian BMT',cat:'🥪 Subway',flag:'',per100:[245,12,9,30],fixedG:480,maleG:480,femaleG:480,unit:'sandwich'},
+{id:'sw6',name:'Subway Chocolate Chip Cookie',cat:'🥪 Subway',flag:'',per100:[463,5,22,61],fixedG:45,maleG:90,femaleG:45,unit:'cookie'},
+{id:'sw7',name:'Subway Caesar Salad with Grilled Chicken',cat:'🥪 Subway',flag:'',per100:[85,10,4,4],fixedG:315,maleG:315,femaleG:315,unit:'bowl'},
+{id:'sw8',name:'Subway Meatball Marinara 6"',cat:'🥪 Subway',flag:'',per100:[260,13,9,33],fixedG:280,maleG:560,femaleG:280,unit:'sandwich'},
+
+// ─── VKUSNO I TOCHKA / ВКУСНО И ТОЧКА (Russia McDonald's replacement) ───
+{id:'vt1',name:'Вкусно и точка Биг Смэш / Big Smash burger',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[229,12,11,22],fixedG:220,maleG:440,femaleG:220,unit:'burger'},
+{id:'vt2',name:'Вкусно и точка Гамбургер / Hamburger',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[252,12,10,29],fixedG:120,maleG:240,femaleG:120,unit:'burger'},
+{id:'vt3',name:'Вкусно и точка Чизбургер / Cheeseburger',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[278,14,12,28],fixedG:130,maleG:260,femaleG:130,unit:'burger'},
+{id:'vt4',name:'Вкусно и точка Картофель фри большой / large fries',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[312,3.4,15,41],fixedG:154,maleG:154,femaleG:154,unit:'portion'},
+{id:'vt5',name:'Вкусно и точка Картофель фри средний / medium fries',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[312,3.4,15,41],fixedG:117,maleG:117,femaleG:117,unit:'portion'},
+{id:'vt6',name:'Вкусно и точка Нагетсы 6шт / nuggets 6pcs',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[244,14,14,16],fixedG:96,maleG:192,femaleG:96,unit:'box'},
+{id:'vt7',name:'Вкусно и точка Крем-суп / cream soup',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[65,3,3.5,6.5],fixedG:300,maleG:300,femaleG:300,unit:'cup'},
+{id:'vt8',name:'Вкусно и точка Пирожок с яблоком / apple pie',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[295,3.5,12,42],fixedG:80,maleG:160,femaleG:80,unit:'piece'},
+{id:'vt9',name:'Вкусно и точка Мороженое ваниль / vanilla ice cream',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[167,3.5,5.4,27],fixedG:150,maleG:300,femaleG:150,unit:'cone'},
+{id:'vt10',name:'Вкусно и точка Кофе латте / latte',cat:"🍔 Вкусно и точка",flag:'🇷🇺',per100:[55,2.5,2,7],fixedG:300,maleG:300,femaleG:300,unit:'cup'},
+
+// ─── ROSTIC'S / РОСТИКС ───
+{id:'rs1',name:"Ростикс Острая куриная ножка / Spicy Chicken Leg",cat:"🍗 Ростикс",flag:'🇷🇺',per100:[265,22,15,10],fixedG:160,maleG:320,femaleG:160,unit:'piece'},
+{id:'rs2',name:"Ростикс Ростер Бургер / Roster Burger",cat:"🍗 Ростикс",flag:'🇷🇺',per100:[275,14,13,26],fixedG:185,maleG:370,femaleG:185,unit:'burger'},
+{id:'rs3',name:"Ростикс Твистер / Twister wrap",cat:"🍗 Ростикс",flag:'🇷🇺',per100:[258,14,10,29],fixedG:200,maleG:400,femaleG:200,unit:'wrap'},
+{id:'rs4',name:"Ростикс Картофель фри / fries",cat:"🍗 Ростикс",flag:'🇷🇺',per100:[312,3.4,15,41],fixedG:130,maleG:260,femaleG:130,unit:'portion'},
+{id:'rs5',name:"Ростикс Попкорн Чикен / Popcorn Chicken",cat:"🍗 Ростикс",flag:'🇷🇺',per100:[315,17,18,20],fixedG:150,maleG:300,femaleG:150,unit:'box'},
+{id:'rs6',name:"Ростикс Кукуруза / Corn cob",cat:"🍗 Ростикс",flag:'🇷🇺',per100:[103,3.5,1.5,20],fixedG:90,maleG:180,femaleG:90,unit:'piece'},
+{id:'rs7',name:"Ростикс Соус Сырный / cheese sauce",cat:"🍗 Ростикс",flag:'🇷🇺',per100:[250,3,22,11],fixedG:30,maleG:60,femaleG:30,unit:'portion'},
+
+// ─── NAPOLI CHICKEN (Taiwan) ───
+{id:'nc1',name:'Napoli Chicken 那波里 Classic Popcorn Chicken 鹽酥雞',cat:'🍗 Napoli Chicken TW',flag:'🇹🇼',per100:[295,17,17,18],fixedG:150,maleG:250,femaleG:150,unit:'bag'},
+{id:'nc2',name:'Napoli Chicken 那波里 Chicken Steak 雞排',cat:'🍗 Napoli Chicken TW',flag:'🇹🇼',per100:[270,20,15,14],fixedG:200,maleG:400,femaleG:200,unit:'piece'},
+{id:'nc3',name:'Napoli Chicken 那波里 Basil Chicken 九層塔雞',cat:'🍗 Napoli Chicken TW',flag:'🇹🇼',per100:[300,18,18,16],fixedG:150,maleG:250,femaleG:150,unit:'bag'},
+{id:'nc4',name:'Napoli Chicken 那波里 Sweet Potato Fries 地瓜薯條',cat:'🍗 Napoli Chicken TW',flag:'🇹🇼',per100:[190,2.5,7,29],fixedG:150,maleG:300,femaleG:150,unit:'bag'},
+{id:'nc5',name:'Napoli Chicken 那波里 Oyster Mushrooms 杏鮑菇',cat:'🍗 Napoli Chicken TW',flag:'🇹🇼',per100:[140,4,7,15],fixedG:100,maleG:200,femaleG:100,unit:'bag'},
+
+// ─── FAT DADDY CHICKEN (Taiwan) ───
+{id:'fd1',name:"Fat Daddy Chicken 胖老爹 Classic Chicken 原味炸雞",cat:'🍗 Fat Daddy Chicken TW',flag:'🇹🇼',per100:[275,20,16,12],fixedG:180,maleG:360,femaleG:180,unit:'piece'},
+{id:'fd2',name:"Fat Daddy Chicken 胖老爹 Spicy Chicken 辣味炸雞",cat:'🍗 Fat Daddy Chicken TW',flag:'🇹🇼',per100:[285,20,17,13],fixedG:180,maleG:360,femaleG:180,unit:'piece'},
+{id:'fd3',name:"Fat Daddy Chicken 胖老爹 Chicken Strips 雞柳條",cat:'🍗 Fat Daddy Chicken TW',flag:'🇹🇼',per100:[260,18,14,16],fixedG:150,maleG:300,femaleG:150,unit:'portion'},
+{id:'fd4',name:"Fat Daddy Chicken 胖老爹 Fries 薯條",cat:'🍗 Fat Daddy Chicken TW',flag:'🇹🇼',per100:[312,3.4,15,41],fixedG:130,maleG:260,femaleG:130,unit:'portion'},
+{id:'fd5',name:"Fat Daddy Chicken 胖老爹 Cheese Potato 起司薯條",cat:'🍗 Fat Daddy Chicken TW',flag:'🇹🇼',per100:[340,5,16,45],fixedG:150,maleG:300,femaleG:150,unit:'portion'},
+
+// ─── MOS BURGER (Taiwan) ───
+{id:'mb1',name:'MOS Burger 摩斯漢堡 Classic Beef Burger',cat:'🍔 MOS Burger TW',flag:'🇹🇼',per100:[248,12,11,27],fixedG:175,maleG:350,femaleG:175,unit:'burger'},
+{id:'mb2',name:'MOS Burger 摩斯漢堡 Rice Burger 米漢堡',cat:'🍔 MOS Burger TW',flag:'🇹🇼',per100:[195,8,6,29],fixedG:165,maleG:330,femaleG:165,unit:'burger'},
+{id:'mb3',name:'MOS Burger 摩斯漢堡 Chicken Burger',cat:'🍔 MOS Burger TW',flag:'🇹🇼',per100:[265,14,12,27],fixedG:175,maleG:350,femaleG:175,unit:'burger'},
+{id:'mb4',name:'MOS Burger 摩斯漢堡 Fries',cat:'🍔 MOS Burger TW',flag:'🇹🇼',per100:[290,3.2,13,40],fixedG:130,maleG:260,femaleG:130,unit:'portion'},
+{id:'mb5',name:'MOS Burger 摩斯漢堡 Corn Soup',cat:'🍔 MOS Burger TW',flag:'🇹🇼',per100:[68,2.5,2.5,9],fixedG:250,maleG:250,femaleG:250,unit:'cup'},
+
+// ─── RUSSIAN SNACKS & PACKAGED FOODS ───
+{id:'sn1',name:'Чипсы Lay\'s краб / Lay\'s Crab chips',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[524,7,29,57],fixedG:56,maleG:112,femaleG:56,unit:'bag'},
+{id:'sn2',name:'Чипсы Pringles оригинал / Pringles original',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[530,5.4,34,55],fixedG:40,maleG:80,femaleG:40,unit:'serving'},
+{id:'sn3',name:'Орехи кешью / Cashews',cat:'🍿 Снеки / Snacks',flag:'',per100:[553,18,44,30],maleG:40,femaleG:25},
+{id:'sn4',name:'Сухарики Хрустим / Khrustim croutons',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[390,11,10,62],fixedG:40,maleG:80,femaleG:40,unit:'bag'},
+{id:'sn5',name:'Печенье Юбилейное / Yubileynoe biscuit',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[435,7.5,14.5,68],maleG:60,femaleG:40},
+{id:'sn6',name:'Шоколад Алёнка / Alyonka chocolate',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[558,8.5,34,55],fixedG:100,maleG:50,femaleG:25,unit:'bar'},
+{id:'sn7',name:'Шоколад Mishka Kosolapy / Медвежонок Cosолапый',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[544,8,32,57],fixedG:30,maleG:60,femaleG:30,unit:'candy'},
+{id:'sn8',name:'Мармелад / Marmalade candy',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[321,5.5,0.1,76],maleG:50,femaleG:30},
+{id:'sn9',name:'Зефир / Zefir marshmallow',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[299,2.6,0.1,73],maleG:50,femaleG:30},
+{id:'sn10',name:'Халва подсолнечная / Sunflower halva',cat:'🍿 Снеки / Snacks',flag:'🇷🇺',per100:[516,11.6,29.7,54],maleG:60,femaleG:40},
+{id:'sn11',name:'Crackers TW Orion Turtle Chips',cat:'🍿 Снеки / Snacks',flag:'🇹🇼',per100:[500,7,24,63],fixedG:50,maleG:100,femaleG:50,unit:'bag'},
+{id:'sn12',name:'Kirin Beer 麒麟啤酒 350ml (TW)',cat:'🍿 Снеки / Snacks',flag:'🇹🇼',per100:[42,0.3,0,3.8],fixedG:350,maleG:350,femaleG:350,unit:'can'},
 ];
 
-// Build search index
 const searchIndex = DB.map(item => ({
   ...item,
   _search: (item.name + ' ' + item.cat).toLowerCase()
 }));
 
-// ══════════════════════════════════════════════
-// APP STATE
-// ══════════════════════════════════════════════
-const SK = 'cal_v5';
+const SK = 'cal_v6';
 function load(){try{return JSON.parse(localStorage.getItem(SK)||'[]')}catch{return[]}}
 function save(d){localStorage.setItem(SK,JSON.stringify(d))}
 let entries = load();
 let activeMeal = 'breakfast';
 let activePeriod = 7;
-let addMode = 'quick'; // 'quick' | 'gram' | 'manual'
-let selectedFood = null; // currently selected food from DB
+let addMode = 'quick';
+let selectedFood = null;
 
-// ══════════════════════════════════════════════
-// HELPERS
-// ══════════════════════════════════════════════
-function fmt(v, d=1){ const n=parseFloat(v)||0; return d===0?Math.round(n):parseFloat(n.toFixed(d)); }
-function fmtN(n){ return n>=1000?(n/1000).toFixed(1)+'k':Math.round(n)+''; }
-function todayStr(){ return new Date().toISOString().slice(0,10); }
-function dStr(d){ return d.toISOString().slice(0,10); }
-function sumK(arr,k){ return arr.reduce((s,e)=>s+(parseFloat(e[k])||0),0); }
-function byDate(arr){ const g={}; arr.forEach(e=>{if(!g[e.date])g[e.date]=[];g[e.date].push(e)}); return g; }
-function pastDates(n){ const r=[]; for(let i=0;i<n;i++){const d=new Date();d.setDate(d.getDate()-i);r.push(dStr(d))} return r; }
-function fmtDate(s){ const d=new Date(s+'T12:00:00'); return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}); }
-function macrosFromGrams(item, g){
-  const f = g/100;
-  return { cal: item.per100[0]*f, prot: item.per100[1]*f, fat: item.per100[2]*f, carbs: item.per100[3]*f };
-}
-function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2200); }
+function fmt(v,d=1){const n=parseFloat(v)||0;return d===0?Math.round(n):parseFloat(n.toFixed(d));}
+function fmtN(n){return n>=1000?(n/1000).toFixed(1)+'k':Math.round(n)+'';}
+function todayStr(){return new Date().toISOString().slice(0,10);}
+function dStr(d){return d.toISOString().slice(0,10);}
+function sumK(arr,k){return arr.reduce((s,e)=>s+(parseFloat(e[k])||0),0);}
+function byDate(arr){const g={};arr.forEach(e=>{if(!g[e.date])g[e.date]=[];g[e.date].push(e)});return g;}
+function pastDates(n){const r=[];for(let i=0;i<n;i++){const d=new Date();d.setDate(d.getDate()-i);r.push(dStr(d))}return r;}
+function fmtDate(s){const d=new Date(s+'T12:00:00');return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});}
+function macrosFromGrams(item,g){const f=g/100;return{cal:item.per100[0]*f,prot:item.per100[1]*f,fat:item.per100[2]*f,carbs:item.per100[3]*f};}
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2200);}
 
-// ══════════════════════════════════════════════
-// SEARCH
-// ══════════════════════════════════════════════
 function onSearch(q){
-  const sr = document.getElementById('searchResults');
-  if(!q || q.trim().length < 1){ sr.classList.remove('show'); return; }
-  const qL = q.toLowerCase();
-  const hits = searchIndex.filter(i => i._search.includes(qL)).slice(0, 30);
-  if(!hits.length){ sr.innerHTML='<div class="no-db-msg">No results found</div>'; sr.classList.add('show'); return; }
-
-  // Group by category
-  const cats = {};
-  hits.forEach(h => { if(!cats[h.cat]) cats[h.cat]=[]; cats[h.cat].push(h); });
-
+  const sr=document.getElementById('searchResults');
+  if(!q||q.trim().length<1){sr.classList.remove('show');return;}
+  const qL=q.toLowerCase();
+  const hits=searchIndex.filter(i=>i._search.includes(qL)).slice(0,40);
+  if(!hits.length){sr.innerHTML='<div class="no-db-msg">No results / Нет результатов</div>';sr.classList.add('show');return;}
+  const cats={};
+  hits.forEach(h=>{if(!cats[h.cat])cats[h.cat]=[];cats[h.cat].push(h);});
   let html='';
-  Object.entries(cats).forEach(([cat, items]) => {
-    html += `<div class="sr-cat">${cat}</div>`;
-    items.forEach(item => {
-      const per = item.fixedG
-        ? `${Math.round(item.per100[0]*item.fixedG/100)} kcal / ${item.unit||'serving'}`
-        : `${item.per100[0]} kcal/100g`;
-      html += `<div class="sr-item" onclick="selectFood('${item.id}')">
-        <div class="sr-left">
-          <div class="sr-name">${item.name}</div>
-          <div class="sr-meta">${per} · P${item.per100[1]}g F${item.per100[2]}g C${item.per100[3]}g</div>
-        </div>
-        <span class="sr-flag">${item.flag||''}</span>
-      </div>`;
+  Object.entries(cats).forEach(([cat,items])=>{
+    html+=`<div class="sr-cat">${cat}</div>`;
+    items.forEach(item=>{
+      const per=item.fixedG?`${Math.round(item.per100[0]*item.fixedG/100)} kcal / ${item.unit||'serving'}`:`${item.per100[0]} kcal/100g`;
+      html+=`<div class="sr-item" onclick="selectFood('${item.id}')"><div class="sr-left"><div class="sr-name">${item.name}</div><div class="sr-meta">${per} · P${item.per100[1]}g F${item.per100[2]}g C${item.per100[3]}g</div></div><span class="sr-flag">${item.flag||''}</span></div>`;
     });
   });
-  sr.innerHTML = html;
+  sr.innerHTML=html;
   sr.classList.add('show');
 }
 
 function selectFood(id){
-  selectedFood = DB.find(i => i.id === id);
+  selectedFood=DB.find(i=>i.id===id);
   document.getElementById('searchResults').classList.remove('show');
-  document.getElementById('foodSearch').value = selectedFood.name;
+  document.getElementById('foodSearch').value=selectedFood.name;
   updateSelectedFoodUI();
 }
 
 function updateSelectedFoodUI(){
-  if(!selectedFood) return;
-  const item = selectedFood;
-  const isFixed = !!item.fixedG;
-  const baseG = item.fixedG || 100;
-  const kcalBase = Math.round(item.per100[0]*baseG/100);
-  const baseLabel = isFixed ? `per ${item.unit||'serving'} (${baseG}g)` : 'per 100g';
-
-  // Quick panel
-  const sfc = document.getElementById('selectedFoodCard');
-  const noFoodMsg = document.getElementById('noFoodMsg');
-  const profileBtns = document.getElementById('profileBtns');
-
+  if(!selectedFood)return;
+  const item=selectedFood;
+  const isFixed=!!item.fixedG;
+  const baseG=item.fixedG||100;
+  const kcalBase=Math.round(item.per100[0]*baseG/100);
+  const baseLabel=isFixed?`per ${item.unit||'serving'} (${baseG}g)`:'per 100g';
+  const sfc=document.getElementById('selectedFoodCard');
+  const noFoodMsg=document.getElementById('noFoodMsg');
+  const profileBtns=document.getElementById('profileBtns');
   sfc.style.display='block';
-  sfc.innerHTML=`<div class="sfc-name">${item.flag||''} ${item.name}</div>
-    <div class="sfc-meta">${kcalBase} kcal · P${fmt(item.per100[1]*baseG/100)}g · F${fmt(item.per100[2]*baseG/100)}g · C${fmt(item.per100[3]*baseG/100)}g &nbsp;(${baseLabel})</div>`;
+  sfc.innerHTML=`<div class="sfc-name">${item.flag||''} ${item.name}</div><div class="sfc-meta">${kcalBase} kcal · P${fmt(item.per100[1]*baseG/100)}g · F${fmt(item.per100[2]*baseG/100)}g · C${fmt(item.per100[3]*baseG/100)}g &nbsp;(${baseLabel})</div>`;
   noFoodMsg.style.display='none';
   profileBtns.style.display='grid';
-
-  // Calculate male/female quick portions
-  const mg = item.maleG; const fg = item.femaleG;
-  const mK = Math.round(item.per100[0]*mg/100);
-  const fK = Math.round(item.per100[0]*fg/100);
-  document.getElementById('malePortion').textContent = `${mK} kcal (${mg}${item.unit&&item.fixedG?'×':item.unit||'g'})`;
-  document.getElementById('femalePortion').textContent = `${fK} kcal (${fg}${item.unit&&item.fixedG?'×':item.unit||'g'})`;
-
-  // Gram panel
-  const gfc = document.getElementById('gramFoodCard');
-  const noGramMsg = document.getElementById('noGramMsg');
-  const gramInputArea = document.getElementById('gramInputArea');
+  const mg=item.maleG;const fg=item.femaleG;
+  const mK=Math.round(item.per100[0]*mg/100);
+  const fK=Math.round(item.per100[0]*fg/100);
+  document.getElementById('malePortion').textContent=`${mK} kcal (${mg}${item.unit&&item.fixedG?'×':item.unit||'g'})`;
+  document.getElementById('femalePortion').textContent=`${fK} kcal (${fg}${item.unit&&item.fixedG?'×':item.unit||'g'})`;
+  const gfc=document.getElementById('gramFoodCard');
+  const noGramMsg=document.getElementById('noGramMsg');
+  const gramInputArea=document.getElementById('gramInputArea');
   gfc.style.display='block';
   gfc.innerHTML=sfc.innerHTML;
   noGramMsg.style.display='none';
@@ -576,58 +803,52 @@ function updateSelectedFoodUI(){
 }
 
 function updateGramPreview(){
-  if(!selectedFood) return;
-  const g = parseFloat(document.getElementById('gramInput').value)||0;
-  const prev = document.getElementById('gramPreview');
-  if(!g){ prev.classList.remove('show'); return; }
-  const m = macrosFromGrams(selectedFood, g);
-  prev.textContent = `→ ${Math.round(m.cal)} kcal · P ${fmt(m.prot)}g · F ${fmt(m.fat)}g · C ${fmt(m.carbs)}g`;
+  if(!selectedFood)return;
+  const g=parseFloat(document.getElementById('gramInput').value)||0;
+  const prev=document.getElementById('gramPreview');
+  if(!g){prev.classList.remove('show');return;}
+  const m=macrosFromGrams(selectedFood,g);
+  prev.textContent=`→ ${Math.round(m.cal)} kcal · P ${fmt(m.prot)}g · F ${fmt(m.fat)}g · C ${fmt(m.carbs)}g`;
   prev.classList.add('show');
 }
 
-// ══════════════════════════════════════════════
-// ADD MODES
-// ══════════════════════════════════════════════
 function setMode(m){
-  addMode = m;
-  document.getElementById('modeQuick').classList.toggle('active', m==='quick');
-  document.getElementById('modeGram').classList.toggle('active', m==='gram');
-  document.getElementById('modeManual').classList.toggle('active', m==='manual');
-  document.getElementById('quickPanel').classList.toggle('show', m==='quick');
-  document.getElementById('gramPanel').classList.toggle('show', m==='gram');
-  document.getElementById('manualPanel').classList.toggle('show', m==='manual');
+  addMode=m;
+  document.getElementById('modeQuick').classList.toggle('active',m==='quick');
+  document.getElementById('modeGram').classList.toggle('active',m==='gram');
+  document.getElementById('modeManual').classList.toggle('active',m==='manual');
+  document.getElementById('quickPanel').classList.toggle('show',m==='quick');
+  document.getElementById('gramPanel').classList.toggle('show',m==='gram');
+  document.getElementById('manualPanel').classList.toggle('show',m==='manual');
 }
 
 function quickAdd(profile){
-  if(!selectedFood){ toast('Select a food first'); return; }
-  const item = selectedFood;
-  const g = profile==='male' ? item.maleG : item.femaleG;
-  const m = macrosFromGrams(item, g);
-  const label = profile==='male' ? '(👨 male)' : '(👩 female)';
-  pushEntry(item.name+' '+label, m.cal, m.prot, m.fat, m.carbs);
+  if(!selectedFood){toast('Select a food first');return;}
+  const item=selectedFood;
+  const g=profile==='male'?item.maleG:item.femaleG;
+  const m=macrosFromGrams(item,g);
+  const label=profile==='male'?'(👨 male)':'(👩 female)';
+  pushEntry(item.name+' '+label,m.cal,m.prot,m.fat,m.carbs);
   clearSearch();
 }
 
 function addByGrams(){
-  if(!selectedFood){ toast('Select a food first'); return; }
-  const g = parseFloat(document.getElementById('gramInput').value)||0;
-  if(!g){ toast('Enter amount in grams'); return; }
-  const m = macrosFromGrams(selectedFood, g);
-  pushEntry(selectedFood.name, m.cal, m.prot, m.fat, m.carbs);
+  if(!selectedFood){toast('Select a food first');return;}
+  const g=parseFloat(document.getElementById('gramInput').value)||0;
+  if(!g){toast('Enter amount in grams');return;}
+  const m=macrosFromGrams(selectedFood,g);
+  pushEntry(selectedFood.name,m.cal,m.prot,m.fat,m.carbs);
   document.getElementById('gramInput').value='';
   document.getElementById('gramPreview').classList.remove('show');
   clearSearch();
 }
 
 function addManual(){
-  const name = document.getElementById('manName').value.trim();
-  const cal = document.getElementById('manCal').value;
-  if(!name){ toast('Enter a food name'); return; }
-  if(cal===''){ toast('Enter calories'); return; }
-  pushEntry(name, parseFloat(cal)||0,
-    parseFloat(document.getElementById('manProt').value)||0,
-    parseFloat(document.getElementById('manFat').value)||0,
-    parseFloat(document.getElementById('manCarbs').value)||0);
+  const name=document.getElementById('manName').value.trim();
+  const cal=document.getElementById('manCal').value;
+  if(!name){toast('Enter a food name');return;}
+  if(cal===''){toast('Enter calories');return;}
+  pushEntry(name,parseFloat(cal)||0,parseFloat(document.getElementById('manProt').value)||0,parseFloat(document.getElementById('manFat').value)||0,parseFloat(document.getElementById('manCarbs').value)||0);
   ['manName','manCal','manProt','manFat','manCarbs'].forEach(id=>document.getElementById(id).value='');
 }
 
@@ -643,29 +864,24 @@ function clearSearch(){
   document.getElementById('gramInputArea').style.display='none';
 }
 
-function pushEntry(name, cal, prot, fat, carbs){
-  entries.push({ id:Date.now(), date:todayStr(), meal:activeMeal, name,
-    calories:parseFloat(cal)||0, protein:parseFloat(prot)||0,
-    fat:parseFloat(fat)||0, carbs:parseFloat(carbs)||0 });
-  save(entries); renderToday();
+function pushEntry(name,cal,prot,fat,carbs){
+  entries.push({id:Date.now(),date:todayStr(),meal:activeMeal,name,calories:parseFloat(cal)||0,protein:parseFloat(prot)||0,fat:parseFloat(fat)||0,carbs:parseFloat(carbs)||0});
+  save(entries);renderToday();
   toast('Added to '+activeMeal.charAt(0).toUpperCase()+activeMeal.slice(1));
 }
 
-function delEntry(id){ entries=entries.filter(e=>e.id!==id); save(entries); renderToday(); }
+function delEntry(id){entries=entries.filter(e=>e.id!==id);save(entries);renderToday();}
 
-// ══════════════════════════════════════════════
-// PAGES
-// ══════════════════════════════════════════════
 function goPage(p){
   document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));
   document.getElementById('page-'+p).classList.add('active');
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.page===p));
   document.getElementById('pgTitle').textContent={today:'Today',history:'History',projection:'Forecast'}[p];
-  if(p==='history') renderHistory();
-  if(p==='projection') renderProjection();
+  if(p==='history')renderHistory();
+  if(p==='projection')renderProjection();
 }
 
-function selMeal(m){ activeMeal=m; document.querySelectorAll('.mtab').forEach(b=>b.classList.toggle('active',b.dataset.meal===m)); }
+function selMeal(m){activeMeal=m;document.querySelectorAll('.mtab').forEach(b=>b.classList.toggle('active',b.dataset.meal===m));}
 
 function renderToday(){
   const today=entries.filter(e=>e.date===todayStr());
@@ -689,7 +905,7 @@ function renderToday(){
   }).join('');
 }
 
-function setPeriod(n){ activePeriod=n; document.querySelectorAll('.ptab').forEach(b=>b.classList.toggle('active',parseInt(b.dataset.p)===n)); renderHistory(); }
+function setPeriod(n){activePeriod=n;document.querySelectorAll('.ptab').forEach(b=>b.classList.toggle('active',parseInt(b.dataset.p)===n));renderHistory();}
 
 function renderHistory(){
   const dates=pastDates(activePeriod);
@@ -700,7 +916,7 @@ function renderHistory(){
   const kcals=withData.map(d=>sumK(bd[d],'calories'));
   const avg=kcals.length?kcals.reduce((a,b)=>a+b,0)/kcals.length:0;
   const maxK=kcals.length?Math.max(...kcals):0;
-  if(!withData.length){ document.getElementById('histCont').innerHTML=`<div class="nodata"><div class="ndi">📭</div><div class="ndt">No data for this period.<br>Start logging food today!</div></div>`; return; }
+  if(!withData.length){document.getElementById('histCont').innerHTML=`<div class="nodata"><div class="ndi">📭</div><div class="ndt">No data for this period.<br>Start logging food today!</div></div>`;return;}
   const cDates=dates.slice(0,Math.min(14,activePeriod)).reverse();
   const cMax=Math.max(...cDates.map(d=>bd[d]?sumK(bd[d],'calories'):0),1);
   const bars=cDates.map(d=>{
@@ -712,50 +928,35 @@ function renderHistory(){
   const periodLabel=activePeriod===365?'Year':`${activePeriod} days`;
   const stats=`<div class="srow"><div class="sbox"><div class="sv">${fmtN(Math.round(avg))}</div><div class="sl">Avg kcal/day</div></div><div class="sbox"><div class="sv">${fmtN(Math.round(maxK))}</div><div class="sl">Peak day</div></div><div class="sbox"><div class="sv">${withData.length}</div><div class="sl">Days logged</div></div></div>`;
   const list=withData.map(d=>{
-    const de=bd[d]; const kc=fmt(sumK(de,'calories'));
+    const de=bd[d];const kc=fmt(sumK(de,'calories'));
     const p=fmt(sumK(de,'protein')),f=fmt(sumK(de,'fat')),c=fmt(sumK(de,'carbs'));
     const tag=d===today?`<span class="htag today">Today</span>`:d===yest?`<span class="htag yesterday">Yesterday</span>`:'';
     return `<div class="hday"><div class="hd-hdr"><div class="hd-dt">${fmtDate(d)}${tag}</div><div class="hd-kc">${kc} kcal</div></div><div class="hd-mc">P ${p}g · F ${f}g · C ${c}g</div></div>`;
   }).join('');
-  document.getElementById('histCont').innerHTML=`
-    <div class="card"><div class="clabel">Calories — Last ${periodLabel}</div><div class="bchart">${bars}</div></div>
-    <div class="card" style="padding-top:13px">${stats}<div class="div"></div>${list}</div>`;
+  document.getElementById('histCont').innerHTML=`<div class="card"><div class="clabel">Calories — Last ${periodLabel}</div><div class="bchart">${bars}</div></div><div class="card" style="padding-top:13px">${stats}<div class="div"></div>${list}</div>`;
 }
 
 function renderProjection(){
-  const bd=byDate(entries); const all=Object.keys(bd);
-  if(!all.length){ document.getElementById('projCont').innerHTML=`<div class="nodata" style="padding-top:60px"><div class="ndi">🔮</div><div class="ndt">Log at least one day of food<br>to see your forecast.</div></div>`; return; }
+  const bd=byDate(entries);const all=Object.keys(bd);
+  if(!all.length){document.getElementById('projCont').innerHTML=`<div class="nodata" style="padding-top:60px"><div class="ndi">🔮</div><div class="ndt">Log at least one day of food<br>to see your forecast.</div></div>`;return;}
   const avgKcal=all.map(d=>sumK(bd[d],'calories')).reduce((a,b)=>a+b,0)/all.length;
   const avgP=all.map(d=>sumK(bd[d],'protein')).reduce((a,b)=>a+b,0)/all.length;
   const avgF=all.map(d=>sumK(bd[d],'fat')).reduce((a,b)=>a+b,0)/all.length;
   const avgC=all.map(d=>sumK(bd[d],'carbs')).reduce((a,b)=>a+b,0)/all.length;
-  const yKcal=Math.round(avgKcal*365); const wKcal=Math.round(avgKcal*7); const mKcal=Math.round(avgKcal*30);
-  const maint=2000; const diff=avgKcal-maint; const kgY=(diff*365)/7700;
-  const kgAbs=Math.abs(kgY).toFixed(1); const dir=kgY>0?'gain':'lose'; const dirE=kgY>0?'📈':'📉';
+  const yKcal=Math.round(avgKcal*365);const wKcal=Math.round(avgKcal*7);const mKcal=Math.round(avgKcal*30);
+  const maint=2000;const diff=avgKcal-maint;const kgY=(diff*365)/7700;
+  const kgAbs=Math.abs(kgY).toFixed(1);const dir=kgY>0?'gain':'lose';const dirE=kgY>0?'📈':'📉';
   const pIns=avgP>=50?`Averaging <span class="ival">${fmt(avgP)}g protein/day</span> — great for muscle maintenance.`:`Averaging <span class="ival">${fmt(avgP)}g protein/day</span>. Most adults need 50–60g daily.`;
   const basis=all.length===1?'Based on 1 day logged':`Based on ${all.length} days logged`;
-  document.getElementById('projCont').innerHTML=`
-    <div class="phero"><div class="phlb">Projected yearly intake</div><div class="phvl">${(yKcal/1000).toFixed(0)}k<span class="phun">kcal / year</span></div><div class="phsb">${basis} · ~${Math.round(avgKcal).toLocaleString()} kcal/day average</div></div>
-    <div class="pgrid">
-      <div class="pstat"><div class="psl">Per Week</div><div class="psv">${(wKcal/1000).toFixed(1)}k <span class="psu">kcal</span></div></div>
-      <div class="pstat"><div class="psl">Per Month</div><div class="psv">${(mKcal/1000).toFixed(1)}k <span class="psu">kcal</span></div></div>
-      <div class="pstat"><div class="psl">Avg Protein/day</div><div class="psv">${fmt(avgP)} <span class="psu">g</span></div></div>
-      <div class="pstat"><div class="psl">Avg Fat/day</div><div class="psv">${fmt(avgF)} <span class="psu">g</span></div></div>
-    </div>
-    <div class="icard"><div class="iico">${dirE}</div><div><div class="itit">Weight trend estimate</div><div class="ibod">At ~${Math.round(avgKcal)} kcal/day vs ~${maint} kcal maintenance, you may ${dir} roughly <span class="ival">${kgAbs} kg per year</span> if this continues. Real results vary by metabolism and activity.</div></div></div>
-    <div class="icard"><div class="iico">🥩</div><div><div class="itit">Protein intake</div><div class="ibod">${pIns}</div></div></div>
-    <div class="icard"><div class="iico">🍞</div><div><div class="itit">Carbohydrates</div><div class="ibod">Averaging <span class="ival">${fmt(avgC)}g carbs/day</span> — projects to <span class="ival">${Math.round(avgC*365/1000)}kg</span> of carbs over a year.</div></div></div>
-    <div class="icard"><div class="iico">📅</div><div><div class="itit">Consistency</div><div class="ibod">You've logged <span class="ival">${all.length} day${all.length!==1?'s':''}</span>. The more you log, the more accurate your forecast becomes.</div></div></div>`;
+  document.getElementById('projCont').innerHTML=`<div class="phero"><div class="phlb">Projected yearly intake</div><div class="phvl">${(yKcal/1000).toFixed(0)}k<span class="phun">kcal / year</span></div><div class="phsb">${basis} · ~${Math.round(avgKcal).toLocaleString()} kcal/day average</div></div><div class="pgrid"><div class="pstat"><div class="psl">Per Week</div><div class="psv">${(wKcal/1000).toFixed(1)}k <span class="psu">kcal</span></div></div><div class="pstat"><div class="psl">Per Month</div><div class="psv">${(mKcal/1000).toFixed(1)}k <span class="psu">kcal</span></div></div><div class="pstat"><div class="psl">Avg Protein/day</div><div class="psv">${fmt(avgP)} <span class="psu">g</span></div></div><div class="pstat"><div class="psl">Avg Fat/day</div><div class="psv">${fmt(avgF)} <span class="psu">g</span></div></div></div><div class="icard"><div class="iico">${dirE}</div><div><div class="itit">Weight trend estimate</div><div class="ibod">At ~${Math.round(avgKcal)} kcal/day vs ~${maint} kcal maintenance, you may ${dir} roughly <span class="ival">${kgAbs} kg per year</span> if this continues. Real results vary by metabolism and activity.</div></div></div><div class="icard"><div class="iico">🥩</div><div><div class="itit">Protein intake</div><div class="ibod">${pIns}</div></div></div><div class="icard"><div class="iico">🍞</div><div><div class="itit">Carbohydrates</div><div class="ibod">Averaging <span class="ival">${fmt(avgC)}g carbs/day</span> — projects to <span class="ival">${Math.round(avgC*365/1000)}kg</span> of carbs over a year.</div></div></div><div class="icard"><div class="iico">📅</div><div><div class="itit">Consistency</div><div class="ibod">You've logged <span class="ival">${all.length} day${all.length!==1?'s':''}</span>. The more you log, the more accurate your forecast becomes.</div></div></div>`;
 }
 
-// ── close search on outside click ──
-document.addEventListener('click', e => {
-  const sr = document.getElementById('searchResults');
-  const sw = document.querySelector('.search-wrap');
-  if(!sw.contains(e.target) && !sr.contains(e.target)) sr.classList.remove('show');
+document.addEventListener('click',e=>{
+  const sr=document.getElementById('searchResults');
+  const sw=document.querySelector('.search-wrap');
+  if(!sw.contains(e.target)&&!sr.contains(e.target))sr.classList.remove('show');
 });
 
-// ── init ──
 const d=new Date();
 document.getElementById('hdrDate').textContent=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
 renderToday();
